@@ -63,6 +63,21 @@ button {
   }
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size);
+}
+.flex > * {
+  flex: 1;
+}
+@media (min-width: 48em) {
+  .flex {
+    flex-direction: row;
+    gap: var(--double-size);
+  }
+}
+
 .flow > * + * {
   margin-block-start: var(--flow);
 }
