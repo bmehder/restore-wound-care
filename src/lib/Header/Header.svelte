@@ -3,7 +3,7 @@
   export let menuItems
 </script>
 
-<header class="bg-accent">
+<header>
   <div class="inner">
     <div class="logo">
       <a href="/">{@html logo}</a>
@@ -28,6 +28,9 @@
 </header>
 
 <style>
+  header {
+    background-color: var(--accent);
+  }
   .inner {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +72,7 @@
   }
 
   a {
+    color: var(--light);
     text-underline-offset: var(--half-size);
     text-decoration-thickness: calc(var(--size) / 12);
   }

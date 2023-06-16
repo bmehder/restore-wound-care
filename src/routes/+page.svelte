@@ -19,24 +19,47 @@
       <p>Our approach can provide either in-clinic or on-location care options.</p>
     </div>
     <div class="video">
-      <Sveltetube id="cppKXqC-260" />
+      <Sveltetube id="cppKXqC-260" radius="var(--half-size)" />
     </div>
   </div>
 </section>
 
+<section class="flow">
+  <h2>Lorem Ipsum</h2>
+  
+  <div class="columns">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
+  </div>
+</section>
+
+<section class="flow full-bleed bg-accent">
+  <div class="flex">
+    <div class="flow">
+      <h2>We travel to you!</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo ducimus pariatur veniam?</p>
+      <p>Call to schedule an on-site patient evaluation appointment.</p>
+      <div>
+        <a href="tel:7206789868" class="button">(720) 678-9868</a>
+      </div>
+    </div>
+    <div><img src="/we-travel-to-you.jpg" alt="nurse with patient at home"></div>
+  </div>
+</section>
+
+<section class="flow">
+  <h2>Lorem Ipsum</h2>
+  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
+  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
+  
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
+</section>
+
 <style>
   .flex {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size);
-  }
-  .flex > * {
-    flex: 1;
-  }
-  @media (min-width: 48em) {
-    .flex {
-      flex-direction: row;
-      gap: var(--double-size);
-    }
+    align-items: center;
   }
 </style>

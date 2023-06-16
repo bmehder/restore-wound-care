@@ -37,7 +37,7 @@ a {
 
 button,
 .button {
-  display: block;
+  display: inline-block;
   padding-block: calc(var(--size) / 1.5);
   padding-inline: calc(var(--double-size));
   background-color: var(--accent);
@@ -51,7 +51,7 @@ button,
 
   &:hover {
     background-color: transparent;
-    /* color: var(--accent); */
+    color: var(--accent);
     text-decoration: none;
     outline: 0.25em solid var(--accent);
   }
@@ -78,7 +78,17 @@ section.full-bleed {
   background-color: var(--accent);
   color: var(--light);
 
-  & a {
+  & h2 {
     color: var(--light);
+  }
+  & a {
+    color: var(--accent);
+    background-color: var(--light);
+  }
+  & a:hover {
+    color: var(--light);
+    background-color: transparent;
+    outline: 0.25em solid var(--light);
+
   }
 }

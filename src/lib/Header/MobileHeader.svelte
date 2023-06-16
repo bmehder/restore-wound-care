@@ -21,7 +21,7 @@
   />
 </svelte:head>
 
-<header class="bg-accent" class:isOpen>
+<header class:isOpen>
   <div class="inner">
     <div class="top">
       <div class="logo">
@@ -57,6 +57,10 @@
 </header>
 
 <style>
+  header {
+    background-color: var(--accent);
+    color: var(--light);
+  }
   .top {
     display: flex;
     justify-content: space-between;
@@ -65,8 +69,9 @@
   }
 
   .logo {
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+    max-width: 12em;
   }
 
   ul {
@@ -90,6 +95,7 @@
 
   a {
     display: block;
+    color: var(--light);
   }
 
   :global(body:has(.isOpen)) {

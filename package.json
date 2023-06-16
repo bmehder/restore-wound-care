@@ -15,6 +15,5 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"sveltetube": "^0.0.11"
 	}
 }

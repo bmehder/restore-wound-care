@@ -20,7 +20,7 @@
   {#if innerWidth > mobileThreshold}
     <Header logo="<img src='logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
   {:else}
-    <MobileHeader logo="SvelteKit" {menuItems} />
+    <MobileHeader logo="<img src='logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
   {/if}
 
   {#if $page.route.id === '/'}
