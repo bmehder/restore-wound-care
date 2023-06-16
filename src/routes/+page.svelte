@@ -1,3 +1,7 @@
+<svelte:head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</svelte:head>
+
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
@@ -41,7 +45,7 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo ducimus pariatur veniam?</p>
       <p>Call to schedule an on-site patient evaluation appointment.</p>
       <div>
-        <a href="tel:7206789868" class="button">(720) 678-9868</a>
+        <a href="tel:7206789868" class="button"><i class="fa-solid fa-phone"></i> Call Now</a>
       </div>
     </div>
     <div><img src="/we-travel-to-you.jpg" alt="nurse with patient at home"></div>
@@ -61,5 +65,8 @@
 <style>
   .flex {
     align-items: center;
+  }
+  i {
+    font-size: var(--size);
   }
 </style>
