@@ -4,16 +4,16 @@
 
 <form action="https://formspree.io/f/{apiKey}" method="POST">
   <div>
-    <label for="first-name">First Name</label>
-    <input type="text" id="first-name" name="first-name" required/>
-  </div>
-  <div>
-    <label for="last-name">Last Name</label>
-    <input type="text" id="last-name" name="last-name" required/>
+    <label for="name">First Name</label>
+    <input type="text" id="name" name="name" required/>
   </div>
   <div>
     <label for="email">Email</label>
     <input type="email" id="email" name="email" required/>
+  </div>
+  <div>
+    <label for="phone">Phone</label>
+    <input type="phone" id="phone" name="phone" required/>
   </div>
   <div>
     <label for="message">Message</label>

@@ -11,7 +11,7 @@
   </div>
   <div class="flow" style="flex: 1">
     <h2>Location</h2>
-    <img src="/contact.jpg" alt="Nurse holding patient's hand.">
+    <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
       Treatments are available at your home, in facility, or in one of our convenient
       clinics along the Front Range of Colorado. Clinic visits and locations are
@@ -24,6 +24,17 @@
       Thornton, CO 80229
     </p>
     <p>To schedule an appointment, please call:</p>
-    <p>Phone: <a href="tel:7206789868">(720) 678-9868</a> | Fax: <a href="tel:7206789860">(720) 678-9860</a></p>
+    <ul class="list">
+      <li><a href="tel:7206789868">(720) 678-9868</a> (Phone)</li>
+      <li><a href="tel:7206789860">(720) 678-9860</a> (Fax)</li>
+    </ul>
   </div>
 </div>
+
+<style>
+  @media (min-width: 48em) {
+    .flex {
+      gap: calc(var(--size) * 4);
+    }
+  }
+</style>
