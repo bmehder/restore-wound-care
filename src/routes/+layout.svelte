@@ -7,7 +7,7 @@
   import MobileHeader from '$lib/Header/MobileHeader.svelte'
   import Hero from '$lib/Hero.svelte'
   import Footer from '$lib/Footer.svelte'
-  import BackToTop from '../../../how-sveltekit-works/src/lib/BackToTop.svelte'
+  import BackToTop from '$lib/BackToTop.svelte'
 
   const mobileThreshold = 768
 
