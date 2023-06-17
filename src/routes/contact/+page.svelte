@@ -5,11 +5,11 @@
 <h1 class="title">Contact Us</h1>
 
 <div class="flex">
-  <div class="flow" style="flex: 2">
+  <div class="flow form" style="flex: 2">
     <h2>Send Us A Message</h2>
     <Form />
   </div>
-  <div class="flow" style="flex: 1">
+  <div class="flow sidebar" style="flex: 1">
     <h2>Location</h2>
     <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
@@ -35,6 +35,20 @@
   @media (min-width: 48em) {
     .flex {
       gap: calc(var(--size) * 4);
+    }
+  }
+
+  .form {
+    flex: 1
+  }
+
+  .sidebar {
+    flex: 1
+  }
+
+  @media (min-width: 32em) {
+    .form {
+      flex: 2
     }
   }
 </style>

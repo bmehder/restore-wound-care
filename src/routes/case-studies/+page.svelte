@@ -5,7 +5,7 @@
 <h1 class="title">Case Studies</h1>
 
 <h2>Lorem Ipsum</h2>
-<ul class="auto-grid" style="--min: 20em;">
+<ul class="auto-grid top">
   {#each top as { heading, src, description }}
     <li class="flow">
       <h3>{heading}</h3>
@@ -25,3 +25,14 @@
     </li>
   {/each}
 </ul>
+
+<style>
+  .top {
+    --min: 16em;
+  }
+  @media (min-width: 32em) {
+    .top {
+      --min: 24em;
+    }
+  }
+</style>
