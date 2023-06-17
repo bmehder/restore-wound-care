@@ -4,7 +4,7 @@
   <h2>Frustrated by a chronic wound?</h2>
   <img
     class="float-right"
-    style="max-width: 31em;"
+    style="--max: 31em"
     src="/patients.jpg"
     alt="Elderly couple at home with health care provider"
   />

@@ -8,7 +8,7 @@
   <h2>Frustrated by a chronic wound?</h2>
   <img
     class="float-right"
-    style="max-width: 31em;"
+    style="--max: 31em"
     src="/providers.jpg"
     alt="Doctor smiling with staff in background"
   />

@@ -7,6 +7,7 @@
   import MobileHeader from '$lib/Header/MobileHeader.svelte'
   import Hero from '$lib/Hero.svelte'
   import Footer from '$lib/Footer.svelte'
+  import BackToTop from '../../../how-sveltekit-works/src/lib/BackToTop.svelte'
 
   const mobileThreshold = 768
 
@@ -27,7 +28,7 @@
     <Hero image="/hero.jpg">
       <h2>A Revolution in Chronic Wound Care</h2>
       <div class="h3">Proudly serving the Front Range of Colorado</div>
-      <div><a class="button" href>Request Appointment</a></div>
+      <div><a class="button" href="/contact">Request Appointment</a></div>
     </Hero>
   {/if}
 
@@ -45,6 +46,8 @@
     <p>Patient Fax Line: <a href="tel:7206789860">(720) 678-9860</a></p>
   </Footer>
 </div>
+
+<BackToTop />
 
 <style>
   .wrapper {
