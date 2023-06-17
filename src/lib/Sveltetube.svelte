@@ -62,9 +62,6 @@ const src = poster
 </div>
 
 <style>
-  .sveltube {
-    width: 100%;
-  }
   .sveltube div {
     position: relative;
     padding-bottom: 56.25%;

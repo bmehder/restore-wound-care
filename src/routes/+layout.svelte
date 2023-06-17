@@ -25,7 +25,7 @@
 
   {#if $page.route.id === '/'}
     <Hero image="/hero.jpg">
-      <h2>A Revolution in Chronic Wound Care</h2>
+      <div class="h2">A Revolution in Chronic Wound Care</div>
       <div class="h3">Proudly serving the Front Range of Colorado</div>
       <div><a class="button" href="/contact">Request Appointment</a></div>
     </Hero>

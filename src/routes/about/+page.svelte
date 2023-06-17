@@ -1,6 +1,6 @@
 <script>
   import teamMembers from './data'
-  import Team from '$lib/Team.svelte'
+  import Provider from '$lib/Provider.svelte'
 </script>
 
 <h1 class="title">About Restore Wound Care</h1>
@@ -9,6 +9,6 @@
 
 <ul class="auto-grid" style="--min: 16em">
   {#each teamMembers as { src, name, description }}
-    <Team {src} {name} {description} />
+    <Provider {src} {name} {description} />
   {/each}
 </ul>

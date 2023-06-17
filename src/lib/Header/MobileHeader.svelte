@@ -69,8 +69,6 @@
   }
 
   .logo {
-    /* font-size: 2rem; */
-    /* font-weight: bold; */
     max-width: 12em;
   }
 

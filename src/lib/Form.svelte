@@ -17,7 +17,7 @@
   </div>
   <div>
     <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
   </div>
   <div>
     <button type="submit">Submit Message</button>
@@ -38,5 +38,8 @@
 
   input, textarea {
     padding: var(--half-size);
+  }
+  button {
+    padding-block: var(--size);
   }
 </style>

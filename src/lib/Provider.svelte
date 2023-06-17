@@ -5,11 +5,7 @@
 </script>
 
 <li class="flow">
-  <img
-    class="square"
-    {src}
-    alt="{name}"
-  />
+  <img class="square" {src} alt={name} />
   <h3>{name}</h3>
   <p>
     {description}

@@ -1,5 +1,6 @@
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
+  import Phone from '$lib/icons/Phone.svelte'
 </script>
 
 <section class="flow intro">
@@ -41,7 +42,7 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo ducimus pariatur veniam?</p>
       <p>Call to schedule an on-site patient evaluation appointment.</p>
       <div>
-        <a href="tel:7206789868" class="button"><i class="fa-solid fa-phone"></i> Call Now</a>
+        <a href="tel:7206789868" class="button"><Phone /> Call Now</a>
       </div>
     </div>
     <div><img src="/we-travel-to-you.jpg" alt="nurse with patient at home"></div>

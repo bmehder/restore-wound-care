@@ -23,7 +23,8 @@ body {
   font-family: var(--fonts);
 }
 
-img, iframe {
+img,
+iframe {
   display: block;
   width: 100%;
 }
@@ -53,24 +54,22 @@ ul {
   gap: var(--gap, var(--double-size));
 }
 
-  @media (min-width: 49em) {
-    .auto-grid {
-
-      gap: var(--double-size);
-    }
+@media (min-width: 49em) {
+  .auto-grid {
+    gap: var(--double-size);
   }
+}
 
 .columns {
   display: grid;
   gap: var(--size);
-
 }
-  @media (min-width: 49em) {
-    .columns {
-      grid-auto-flow: column;
-      gap: var(--gap, var(--double-size));
-    }
+@media (min-width: 49em) {
+  .columns {
+    grid-auto-flow: column;
+    gap: var(--gap, var(--double-size));
   }
+}
 
 .flex {
   display: flex;
@@ -100,11 +99,11 @@ ul {
 .list {
   list-style: initial;
   padding-inline-start: calc(var(--size) * 1.5);
-  
+
   & > * + * {
     margin-block-start: calc(var(--size) / 6);
   }
-  
+
   @media (min-width: 49em) {
     padding-inline-start: var(--double-size);
   }
@@ -125,6 +124,21 @@ ul {
     margin-inline-start: var(--double-size);
     margin-inline-end: 0;
   }
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  border: 0;
 }
 
 /* Skins */

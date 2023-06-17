@@ -14,35 +14,32 @@
     background-position: center;
     background-size: cover;
     color: var(--light);
+    font-weight: bold;
     line-height: 1.5;
     text-align: center;
-    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-  }
-  .hero :global(h2) {
-    font-size: 3rem;
-    
-  }
-  .hero :global(.h3) {
-    color: var(--light);
-    font-size: 2rem;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
   }
   .inner {
-        display: grid;
+    display: grid;
     gap: var(--size);
+  }
+  .inner :global(.h2) {
+    color: var(--light);
+    font-size: var(--double-size);
+  }
+  .inner :global(.h3) {
+    color: var(--light);
+    font-size: calc(var(--size) + 0.5rem);
   }
   .inner :global(.button) {
     display: inline-block;
-    font-size: 1.5rem;
+    margin-block-start: var(--half-size);
+    font-size: calc(var(--size) - 0.25rem);
   }
   .inner :global(.button:hover) {
     display: inline-block;
-    font-size: 1.5rem;
     color: var(--light);
     outline-color: var(--light);
   }
-  
-  .inner :global(h2) {
-    color: var(--light);
-  }
-
 </style>
