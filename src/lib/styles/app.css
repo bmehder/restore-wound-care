@@ -23,7 +23,7 @@ body {
   font-family: var(--fonts);
 }
 
-img {
+img, iframe {
   display: block;
   width: 100%;
 }
@@ -33,6 +33,10 @@ textarea,
 button {
   font-family: inherit;
   font-size: inherit;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Utilities */
@@ -85,6 +89,30 @@ button {
 .square {
   aspect-ratio: 1;
   object-fit: cover;
+}
+
+.list {
+  padding-inline-start: calc(var(--size) * 1.5);
+  
+  & > * + * {
+    margin-block-start: calc(var(--size) / 6);
+  }
+  
+  @media (min-width: 48em) {
+    padding-inline-start: var(--double-size);
+  }
+}
+
+@media (min-width: 48em) {
+  .float-right {
+    float: right;
+    display: inline;
+    width: auto;
+    margin: var(--size);
+    margin-block-start: var(--double-size);
+    margin-inline-start: var(--double-size);
+    margin-inline-end: 0;
+  }
 }
 
 /* Skins */

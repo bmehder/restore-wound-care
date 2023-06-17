@@ -1,7 +1,3 @@
-<svelte:head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-</svelte:head>
-
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
@@ -61,12 +57,3 @@
   
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
 </section>
-
-<style>
-  .flex {
-    align-items: center;
-  }
-  i {
-    font-size: var(--size);
-  }
-</style>

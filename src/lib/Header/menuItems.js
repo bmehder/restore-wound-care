@@ -13,19 +13,19 @@ export default [
   },
   {
     name: 'Patients',
-    url: '/gallery',
+    url: '/patients',
   },
   {
     name: 'Providers',
-    url: '/contact',
+    url: '/providers',
   },
   {
     name: 'Testimonials',
-    url: '/contact',
+    url: '/testimonials',
   },
   {
     name: 'Case Studies',
-    url: '/contact',
+    url: '/case-studies',
   },
   {
     name: 'Contact',
