@@ -36,7 +36,7 @@
 
 <section class="flow full-bleed bg-accent">
   <div class="flex">
-    <div class="flow">
+    <div class="flow travel">
       <h2>We travel to you!</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo ducimus pariatur veniam?</p>
       <p>Call to schedule an on-site patient evaluation appointment.</p>
@@ -57,3 +57,14 @@
   
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat tempora dicta cupiditate.</p>
 </section>
+
+<style>
+  @media (max-width: 47em) {
+    .travel:first-child {
+      order: 2;
+    }
+    .travel:last-child {
+      order: 1;
+    }
+  }
+</style>
