@@ -7,7 +7,7 @@
 <div class="flex">
   <div class="flow form" style="flex: 2">
     <h2>Send Us A Message</h2>
-    <Form />
+    <Form api="https://submit-form.com/sAOnImzN" />
   </div>
   <div class="flow sidebar" style="flex: 1">
     <h2>Location</h2>
@@ -18,16 +18,12 @@
       determined when scheduling.
     </p>
     <p>
-      Restore Wound Care, LLC<br />
+      <strong>Restore Wound Care, LLC</strong><br />
       9195 Grant Street<br />
       Suite 305<br />
-      Thornton, CO 80229
-    </p>
-    <p>To schedule an appointment, please call:</p>
-    <ul class="list">
-      <li><a href="tel:7206789868">(720) 678-9868</a> (Phone)</li>
-      <li><a href="tel:7206789860">(720) 678-9860</a> (Fax)</li>
-    </ul>
+      Thornton, CO 80229<br />
+      <a href="tel:7206789868">(720) 678-9868</a> (Phone)<br />
+      <a href="tel:7206789860">(720) 678-9860</a> (Fax)</p>
   </div>
 </div>
 

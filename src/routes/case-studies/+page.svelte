@@ -16,7 +16,7 @@
 </ul>
 
 <h2>Leg Wound Series</h2>
-<ul class="auto-grid" style="--min: 16em;">
+<ul class="auto-grid">
   {#each bottom as { heading, src, description }}
     <li class="flow">
       <h3>{heading}</h3>

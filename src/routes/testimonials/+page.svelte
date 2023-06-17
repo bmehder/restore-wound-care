@@ -11,6 +11,7 @@
     frameborder="0"
     allowfullscreen
   />
+  
   <p>
     Richard has wounds on both legs. In this video, he talks about his experience at
     Restore Medical Group, and we share some before and after pictures.

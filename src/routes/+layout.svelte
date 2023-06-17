@@ -11,7 +11,6 @@
 
   const mobileThreshold = 768
 
-  // Component State
   let innerWidth = 769
 </script>
 

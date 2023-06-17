@@ -1,11 +1,10 @@
 <script>
-  export let apiKey = ''
-  // Formspark - https://documentation.formspark.io/examples/svelte.html#fetch
+  export let api = ''
 </script>
 
-<form action="https://formspree.io/f/{apiKey}" method="POST">
+<form action="{api}" method="POST">
   <div>
-    <label for="name">First Name</label>
+    <label for="name">Name</label>
     <input type="text" id="name" name="name" required/>
   </div>
   <div>
