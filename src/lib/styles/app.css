@@ -64,6 +64,7 @@ ul {
   display: grid;
   gap: var(--size);
 }
+
 @media (min-width: 49em) {
   .columns {
     grid-auto-flow: column;

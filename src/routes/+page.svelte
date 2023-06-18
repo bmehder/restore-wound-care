@@ -19,7 +19,7 @@
       </p>
       <p>Our approach can provide either in-clinic or on-location care options.</p>
     </div>
-    <div class="video">
+    <div>
       <Sveltetube id="cppKXqC-260" radius="var(--half-size)" />
     </div>
   </div>

@@ -1,17 +1,17 @@
 <script>
-export let id = 'XSK1Bt9O0Pw';
-export let title = 'Youtube Video';
-export let color = 'white';
-export let poster = '';
-export let radius = '0px';
-export let shadow = 'none';
-const bodyReset = '<style>body { margin: 0 }</style>';
-const src = poster
-    ? poster
-    : `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+  export let id = 'XSK1Bt9O0Pw'
+  export let title = 'Youtube Video'
+  export let color = 'white'
+  export let poster = ''
+  export let radius = '0px'
+  export let shadow = 'none'
+
+  const bodyReset = '<style>body { margin: 0 }</style>'
+
+  const src = poster ? poster : `https://img.youtube.com/vi/${id}/hqdefault.jpg`
 </script>
 
-<div class="sveltube">
+<div class="video">
   <div style="border-radius: {radius}; box-shadow: {shadow}">
     <iframe
       loading="lazy"
@@ -60,19 +60,3 @@ const src = poster
     />
   </div>
 </div>
-
-<style>
-  .sveltube div {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-  .sveltube iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    border: 0;
-  }
-</style>
