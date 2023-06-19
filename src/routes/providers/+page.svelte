@@ -1,5 +1,6 @@
 <script>
-  import Qualified from '../../lib/Qualified.svelte'
+  import Qualified from '$lib/Qualified.svelte'
+  import CTA from '$lib/CTA.svelte'
 </script>
 
 <h1 class="title">Providers</h1>
@@ -41,6 +42,8 @@
     the past.
   </p>
 </section>
+
+<CTA />
 
 <section class="flow">
   <h2>Identifying Patients</h2>

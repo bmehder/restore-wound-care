@@ -36,6 +36,8 @@
     display: inline-block;
     margin-block-start: var(--half-size);
     font-size: calc(var(--size) - 0.25rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.24);
+    text-shadow: none;
   }
   .inner :global(.button:hover) {
     display: inline-block;
