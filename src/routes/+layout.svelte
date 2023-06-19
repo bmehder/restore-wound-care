@@ -18,9 +18,9 @@
 
 <div class="wrapper">
   {#if innerWidth > mobileThreshold}
-    <Header logo="<img src='logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
+    <Header logo="<img src='/logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
   {:else}
-    <MobileHeader logo="<img src='logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
+    <MobileHeader logo="<img src='/logo.png' alt='Restore Wound Care Logo'>" {menuItems} />
   {/if}
 
   {#if $page.route.id === '/'}

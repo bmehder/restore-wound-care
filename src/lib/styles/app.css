@@ -127,6 +127,11 @@ ul {
   }
 }
 
+.center {
+  margin-inline: auto;
+  text-align: center;
+}
+
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -140,6 +145,15 @@ ul {
   height: 100%;
   inset: 0;
   border: 0;
+}
+
+@media (min-width: 49em) {
+  .swap :nth-child(1) {
+    order: 2;
+  }
+  .swap :nth-child(2) {
+    order: 1;
+  }
 }
 
 /* Skins */

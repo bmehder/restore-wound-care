@@ -1,4 +1,5 @@
 <script>
+  import { PUBLIC_FORMSPARK_URL } from '$env/static/public'
   import Form from '$lib/Form.svelte'
 </script>
 
@@ -7,13 +8,13 @@
 <div class="flex">
   <div class="flow form" style="flex: 2">
     <h2>Send Us A Message</h2>
-    <Form api="" />
+    <Form api="{PUBLIC_FORMSPARK_URL}" redirect="http://localhost:5173/contact/thank-you" />
   </div>
   <div class="flow sidebar" style="flex: 1">
     <h2>Location</h2>
     <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
-      Treatments are available at your home, in facility, or in one of our convenient
+      Treatments are available at your home, in-facility, or in one of our convenient
       clinics along the Front Range of Colorado. Clinic visits and locations are
       determined when scheduling.
     </p>

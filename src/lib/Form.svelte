@@ -1,5 +1,6 @@
 <script>
   export let api = ''
+  export let redirect = ''
 </script>
 
 <form action="{api}" method="POST">
@@ -19,6 +20,11 @@
     <label for="message">Message</label>
     <textarea id="message" name="message" cols="30" rows="10" required></textarea>
   </div>
+  <input
+    type="hidden"
+    name="_redirect"
+    value="{redirect}"
+  />
   <div>
     <button type="submit">Submit Message</button>
   </div>
