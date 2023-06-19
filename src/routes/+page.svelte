@@ -36,8 +36,8 @@
 </section>
 
 <section class="flow full-bleed bg-accent">
-  <div class="flex">
-    <div class="flow travel">
+  <div class="flex travel">
+    <div class="flow content">
       <h2>We travel to you!</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo ducimus pariatur veniam?</p>
       <p>Call to schedule an on-site patient evaluation appointment.</p>
@@ -45,7 +45,7 @@
         <a href="tel:7206789868" class="button"><Phone /> Call Now</a>
       </div>
     </div>
-    <div><img src="/we-travel-to-you.jpg" alt="nurse with patient at home"></div>
+    <div class="image"><img src="/we-travel-to-you.jpg" alt="nurse with patient at home"></div>
   </div>
 </section>
 
@@ -61,10 +61,10 @@
 
 <style>
   @media (max-width: 47em) {
-    .travel:first-child {
+    .travel .content {
       order: 2;
     }
-    .travel:last-child {
+    .travel .image {
       order: 1;
     }
   }
