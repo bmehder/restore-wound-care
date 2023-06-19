@@ -7,7 +7,7 @@
 <div class="flex">
   <div class="flow form" style="flex: 2">
     <h2>Send Us A Message</h2>
-    <Form api="https://submit-form.com/sAOnImzN" />
+    <Form api="" />
   </div>
   <div class="flow sidebar" style="flex: 1">
     <h2>Location</h2>
