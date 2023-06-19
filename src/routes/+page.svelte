@@ -35,7 +35,7 @@
   </div>
 </section>
 
-<section class="flow full-bleed bg-accent">
+<section class="flow full-bleed bg-accent" title="We travel to you">
   <div class="flex travel">
     <div class="flow content">
       <h2>We travel to you!</h2>

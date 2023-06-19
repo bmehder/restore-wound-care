@@ -9,7 +9,7 @@
   {#each top as { heading, src, description }}
     <li class="flow">
       <h3>{heading}</h3>
-      <img class="square" {src} alt="wound" />
+      <img class="square" {src} alt="?" />
       <p>{description}</p>
     </li>
   {/each}
