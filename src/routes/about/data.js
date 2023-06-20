@@ -4,13 +4,9 @@ export default [
     name: 'Lilliane Sarraff, M.D.',
     description: `Dr. Lilliane Sarraff is a native of Florida and received her MD at Ross University. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Dr. Sarraff joined RWC in 2022, and when she’s not helping patients, she can be found in her garden.`,
   },
-  // {
-  //   src: 'https://restorewoundcare.com/wp-content/uploads/melanie-markadakis.jpg',
-  //   name: 'Melanie Markadakis, MSN, APRN, FNP-C',
-  //   description: ``,
-  // },
   {
     src: 'https://restorewoundcare.com/wp-content/uploads/melanie-markadakis.jpg',
+    // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
     name: 'M. Markadakis, MSN, APRN, FNP-C',
     description: ``,
   },

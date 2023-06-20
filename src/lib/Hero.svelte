@@ -43,6 +43,6 @@
     display: inline-block;
     color: var(--light);
     outline-color: var(--light);
-    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8);
+    text-shadow: inherit;
   }
 </style>

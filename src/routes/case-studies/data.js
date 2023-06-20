@@ -34,7 +34,7 @@ export const top = [
   },
 ]
 
-export const bottom = [
+export const legWounds = [
   {
     heading: 'Top',
     src: '/studies/bottom/maxine-3-24-top.jpg',

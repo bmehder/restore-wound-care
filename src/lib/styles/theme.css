@@ -55,11 +55,11 @@ h3,
 a {
   color: var(--accent);
   text-decoration: none;
+}
 
-  &:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 button,
@@ -75,13 +75,14 @@ button,
   letter-spacing: 1px;
   border: none;
   cursor: pointer;
+}
 
-  &:hover {
-    background-color: transparent;
-    color: var(--accent);
-    text-decoration: none;
-    outline: 0.25em solid var(--accent);
-  }
+button:hover,
+.button:hover {
+  background-color: transparent;
+  color: var(--accent);
+  text-decoration: none;
+  outline: 0.25em solid var(--accent);
 }
 
 /* Layout */
@@ -105,17 +106,16 @@ section.full-bleed {
 .bg-accent {
   background-color: var(--accent);
   color: var(--light);
-
-  & h2 {
-    color: var(--light);
-  }
-  & a {
-    color: var(--accent);
-    background-color: var(--light);
-  }
-  & a:hover {
-    color: var(--light);
-    background-color: transparent;
-    outline: 0.25em solid var(--light);
-  }
+}
+.bg-accent h2 {
+  color: var(--light);
+}
+.bg-accent a {
+  color: var(--accent);
+  background-color: var(--light);
+}
+.bg-accent a:hover {
+  color: var(--light);
+  background-color: transparent;
+  outline: 0.25em solid var(--light);
 }

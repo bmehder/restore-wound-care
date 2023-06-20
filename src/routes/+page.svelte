@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Home - Restore Wound Care</title>
+  <meta name="description" content="Restore Wound Care has developed an insurance backed protocol for treating recalcitrant wounds proving difficult to heal using conventional wound care methods.">
+</svelte:head>
+
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
   import Phone from '$lib/icons/Phone.svelte'

@@ -1,38 +1,27 @@
 <script>
-  import { top, bottom } from './data'
+  import { top, legWounds } from './data'
+  import Wound from '$lib/Wound.svelte'
 </script>
+
+<svelte:head>
+  <title>Case Studies - Restore Wound Care</title>
+  <!-- <meta name="description" content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."> -->
+</svelte:head>
 
 <h1 class="title">Case Studies</h1>
 
 <h2>Lorem Ipsum</h2>
-<ul class="auto-grid top">
-  {#each top as { heading, src, description }}
-    <li class="flow">
-      <h3>{heading}</h3>
-      <img class="square" {src} alt="?" />
-      <p>{description}</p>
-    </li>
+
+<ul class="auto-grid">
+  {#each top as item}
+    <Wound {item} />
   {/each}
 </ul>
 
 <h2>Leg Wound Series</h2>
+
 <ul class="auto-grid">
-  {#each bottom as { heading, src, description }}
-    <li class="flow">
-      <h3>{heading}</h3>
-      <img class="square" {src} alt="wound" />
-      <p>{description}</p>
-    </li>
+  {#each legWounds as item}
+    <Wound {item} />
   {/each}
 </ul>
-
-<style>
-  .top {
-    --min: 16em;
-  }
-  @media (min-width: 32em) {
-    .top {
-      --min: 24em;
-    }
-  }
-</style>

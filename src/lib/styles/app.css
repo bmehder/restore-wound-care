@@ -1,5 +1,4 @@
 :root {
-  /* color-scheme: dark light; */
   --half-size: calc(var(--size) / 2);
   --double-size: calc(var(--size) * 2);
   --triple-size: calc(var(--size) * 3);
@@ -88,6 +87,15 @@ ul {
   }
 }
 
+@media (min-width: 49em) {
+  .swap :nth-child(1) {
+    order: 2;
+  }
+  .swap :nth-child(2) {
+    order: 1;
+  }
+}
+
 .flow > * + * {
   margin-block-start: var(--flow);
 }
@@ -100,18 +108,16 @@ ul {
 .list {
   list-style: initial;
   padding-inline-start: calc(var(--size) * 1.5);
-
-  & > * + * {
-    margin-block-start: calc(var(--size) / 6);
-  }
-
-  @media (min-width: 49em) {
-    padding-inline-start: var(--double-size);
-  }
 }
 
-.float-right {
-  max-width: 100%;
+.list > * + * {
+  margin-block-start: calc(var(--size) / 6);
+}
+
+@media (min-width: 49em) {
+  .list {
+    padding-inline-start: var(--double-size);
+  }
 }
 
 @media (min-width: 49em) {
@@ -145,15 +151,6 @@ ul {
   height: 100%;
   inset: 0;
   border: 0;
-}
-
-@media (min-width: 49em) {
-  .swap :nth-child(1) {
-    order: 2;
-  }
-  .swap :nth-child(2) {
-    order: 1;
-  }
 }
 
 /* Skins */

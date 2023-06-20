@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Providers - Restore Wound Care</title>
+  <meta name="description" content="If you are a wound care provider with a patient who has not responded to the treatment you have provided so far, please consider us as a resource for healing.">
+</svelte:head>
+
 <script>
   import Qualified from '$lib/Qualified.svelte'
   import CTA from '$lib/CTA.svelte'
