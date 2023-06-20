@@ -6,7 +6,10 @@
 <section class="flow intro">
   <h1>Restore Wound Care</h1>
 
-  <div class="flex">
+  <div class="flex swap">
+    <div>
+      <Sveltetube id="cppKXqC-260" radius="var(--half-size)" />
+    </div>
     <div class="text flow">
       <p>
         Welcome to Restore Wound Care - a truly unique health care practice. Restore Wound
@@ -18,9 +21,6 @@
         exclusively sourced amnio products that rapidly promote healing in wound areas.
       </p>
       <p>Our approach can provide either in-clinic or on-location care options.</p>
-    </div>
-    <div>
-      <Sveltetube id="cppKXqC-260" radius="var(--half-size)" />
     </div>
   </div>
 </section>
