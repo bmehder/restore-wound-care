@@ -10,3 +10,11 @@
     <Vimeo {heading} {src} {content} />
   {/each}
 </div>
+
+<style>
+  @media (min-width: 48em) {
+    .auto-grid {
+      --min: 20em;
+    }
+  }
+</style>

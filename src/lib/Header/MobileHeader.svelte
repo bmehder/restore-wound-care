@@ -36,7 +36,7 @@
       </div>
     </div>
     {#if isOpen}
-      <nav transition:slide>
+      <nav id="header-nav" aria-label="Main Navigation" transition:slide>
         <ul>
           {#each menuItems as { name, url, children }}
             <li>
@@ -60,6 +60,9 @@
   header {
     background-color: var(--accent);
     color: var(--light);
+  }
+  .inner {
+    padding-block: var(--size);
   }
   .top {
     display: flex;
