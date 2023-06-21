@@ -10,18 +10,35 @@
 
 <h1 class="title">Case Studies</h1>
 
-<h2>Lorem Ipsum</h2>
+<section class="flow">
+  <h2>Lorem Ipsum</h2>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil eveniet, provident id
+    neque consectetur perspiciatis deleniti repudiandae hic veniam voluptas, sint, autem
+    voluptatibus quasi obcaecati cupiditate inventore. Doloremque, placeat aliquid non
+    sapiente facilis eveniet consequatur. Ratione animi perspiciatis vitae dignissimos quo
+    voluptates in, quia nisi sed assumenda obcaecati aliquam itaque!
+  </p>
 
-<ul class="auto-grid">
-  {#each top as item}
-    <Wound {item} />
-  {/each}
-</ul>
+  <ul class="auto-grid">
+    {#each top as item}
+      <Wound {item} />
+    {/each}
+  </ul>
+</section>
 
-<h2>Leg Wound Series</h2>
-
-<ul class="auto-grid">
-  {#each legWounds as item}
-    <Wound {item} />
-  {/each}
-</ul>
+<section class="flow">
+  <h2>Leg Wound Series</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit neque quos
+    facere quas, soluta debitis quidem nesciunt praesentium quod aliquam laborum suscipit
+    quae expedita quia magnam sapiente nemo, sunt quibusdam officia. Facere animi, et
+    quisquam quae quo enim deserunt maxime perferendis mollitia, pariatur non, dolorum
+    necessitatibus incidunt sed error!
+  </p>
+  <ul class="auto-grid">
+    {#each legWounds as item}
+      <Wound {item} />
+    {/each}
+  </ul>
+</section>
