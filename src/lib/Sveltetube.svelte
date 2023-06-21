@@ -11,8 +11,8 @@
   const src = poster ? poster : `https://img.youtube.com/vi/${id}/hqdefault.jpg`
 </script>
 
-<div class="video">
-  <div style="border-radius: {radius}; box-shadow: {shadow}">
+<div class="video" style="border-radius: {radius}; box-shadow: {shadow}">
+  <div>
     <iframe
       loading="lazy"
       {title}
@@ -22,7 +22,7 @@
       scrolling="no"
       srcdoc="
       {bodyReset}
-        <a href='https://www.youtube.com/embed/{id}?autoplay=1'>
+        <a tabindex=0 href='https://www.youtube.com/embed/{id}?autoplay=1'>
           <img
             style='
               display: block;

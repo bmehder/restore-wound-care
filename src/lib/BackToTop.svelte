@@ -13,22 +13,22 @@
 <svelte:window bind:scrollY />
 
 {#if scrollY > threshold}
-  <div
+  <button
     style="background-color: {color}"
     transition:fade
     on:click={scrollToTop}
     on:keydown
   >
     {@html icon}
-  </div>
+  </button>
 {/if}
 
 <style>
-  div {
+  button {
     display: grid;
     place-content: center;
-    width: 4rem;
-    aspect-ratio: 1;
+    padding-block: 1.25rem;
+    padding-inline: 1.25rem;
     position: fixed;
     right: 2rem;
     bottom: 2rem;
@@ -40,10 +40,10 @@
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.24);
     transition: scale 150ms ease;
     opacity: 0.8;
-    cursor: pointer;
   }
 
-  div:hover {
+  button:hover {
+    outline: none;
     scale: 0.95;
   }
 </style>

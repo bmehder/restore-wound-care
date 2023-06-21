@@ -10,11 +10,11 @@
 
 <h1 class="title">Testimonials</h1>
 
-<div class="auto-grid">
+<ul class="auto-grid">
   {#each videos as { heading, src, content }}
     <Vimeo {heading} {src} {content} />
   {/each}
-</div>
+</ul>
 
 <style>
   @media (min-width: 48em) {

@@ -78,18 +78,13 @@ button,
 }
 
 button:hover,
-.button:hover {
+.button:hover,
+button:focus,
+.button:focus {
   background-color: transparent;
   color: var(--accent);
   text-decoration: none;
   outline: 0.25em solid var(--accent);
-}
-
-/* Layout */
-section.full-bleed {
-  margin-block: var(--double-size);
-  padding-block-start: var(--double-size);
-  padding-block-end: calc(var(--double-size) + 0.5rem);
 }
 
 /* Skins */
@@ -114,7 +109,7 @@ section.full-bleed {
   color: var(--accent);
   background-color: var(--light);
 }
-.bg-accent a:hover {
+.bg-accent a:hover, .bg-accent a:focus {
   color: var(--light);
   background-color: transparent;
   outline: 0.25em solid var(--light);
