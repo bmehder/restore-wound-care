@@ -8,7 +8,7 @@ export default [
     src: '/team/melanie-markadakis.jpg',
     // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
     name: 'M. Markadakis, MSN, APRN, FNP-C',
-    description: `Melanie Markadakis is a native of Earth and received her degree from the School of Hard Knocks – she took night classes. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Melanie joined RWC in 2023, and when she’s not helping patients, she's not helping patients, innit.`,
+    description: ``,
   },
   {
     src: '/team/kate-thompson.jpg',
@@ -23,7 +23,7 @@ export default [
   {
     src: '/team/elizabeth-cirbo.jpg',
     name: 'Elizabeth Cirbo, FNP-BC, DNP',
-    description: `Elizabeth Cirbo is a native of Earth and received her degree from the School of Hard Knocks – she took night classes. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Elizabeth joined RWC in 2023, and when she’s not helping patients, she's not helping patients, innit.`,
+    description: `Elizabeth Cirbo is a native of Wyoming and received her DNP, FNP-BC from the University of Northern Colorado and BSN from the University of Wyoming. She proudly serves patients in northern Colorado and surrounding areas. She is passionate about excellent wound care and getting to know patients in the comfort of their own home. Liz joined RWC in March of 2023 and enjoys continuing to learn about quality care.`,
   },
   {
     src: '/team/shaun-baillie.jpg',
