@@ -60,7 +60,7 @@ ul {
 }
 
 .columns {
-  --gap: var(--size);
+  --gap: var(--double-size);
   display: grid;
   gap: var(--gap);
 }

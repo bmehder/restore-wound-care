@@ -27,8 +27,9 @@
   button {
     display: grid;
     place-content: center;
-    padding-block: 1.25rem;
-    padding-inline: 1.25rem;
+    padding: 0;
+    width: var(--triple-size);
+    aspect-ratio: 1;
     position: fixed;
     right: 2rem;
     bottom: 2rem;
