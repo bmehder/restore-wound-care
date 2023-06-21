@@ -3,7 +3,7 @@ export default [
     heading: 'Lorem ipsum dolor',
     src: 'https://player.vimeo.com/video/540318619?h=59fb68c893',
     content: `Richard has wounds on both legs. In this video, he talks about his experience at
-      Restore Medical Group, and we share some before and after pictures.`,
+      Restore Wound Care, and we share some before and after pictures.`,
   },
   {
     heading: 'Lorem ipsum dolor',

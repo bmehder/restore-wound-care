@@ -1,4 +1,4 @@
-<button aria-expanded="false" aria-controls="header-nav"><i class="fa-sharp fa-solid fa-2x fa-bars" /></button>
+<button aria-expanded="false" aria-controls="header-nav" aria-label="hamburger"><i class="fa-sharp fa-solid fa-2x fa-bars" /></button>
 
 <style>
   button {

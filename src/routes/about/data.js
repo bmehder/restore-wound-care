@@ -8,7 +8,7 @@ export default [
     src: 'https://restorewoundcare.com/wp-content/uploads/melanie-markadakis.jpg',
     // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
     name: 'M. Markadakis, MSN, APRN, FNP-C',
-    description: ``,
+    description: `Melanie Markadakis is a native of Earth and received her degree from the School of Hard Knocks – she took night classes. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Melanie joined RWC in 2023, and when she’s not helping patients, she's not helping patients, innit.`,
   },
   {
     src: 'https://restorewoundcare.com/wp-content/uploads/kate-thompson.jpg',
@@ -23,7 +23,7 @@ export default [
   {
     src: 'https://restorewoundcare.com/wp-content/uploads/elizabeth-cirbo.jpg',
     name: 'Elizabeth Cirbo, FNP-BC, DNP',
-    description: ``,
+    description: `Elizabeth Cirbo is a native of Earth and received her degree from the School of Hard Knocks – she took night classes. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Elizabeth joined RWC in 2023, and when she’s not helping patients, she's not helping patients, innit.`,
   },
   {
     src: 'https://restorewoundcare.com/wp-content/uploads/shaun-baillie.jpg',
