@@ -4,6 +4,7 @@
 </svelte:head>
 
 <script>
+  import { PUBLIC_FORMSPARK_URL } from '$env/static/public'
   import Form from '$lib/Form.svelte'
 </script>
 
@@ -12,7 +13,7 @@
 <div class="flex">
   <div class="flow form" style="flex: 2">
     <h2>Send Us A Message</h2>
-    <Form api="https://submit-form.com/sAOnImzN" redirect="http://localhost:5173/contact/thank-you" />
+    <Form api="{PUBLIC_FORMSPARK_URL}" redirect="http://localhost:5173/contact/thank-you" />
   </div>
   <div class="flow sidebar" style="flex: 1">
     <h2>Location</h2>

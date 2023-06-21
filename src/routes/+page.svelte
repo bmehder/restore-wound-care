@@ -55,7 +55,7 @@
   </div>
 </section>
 
-<section class="flow full-bleed bg-accent" title="We travel to you">
+<section class="flow full-bleed bg-accent">
   <div class="flex swap">
     <div class="image">
       <img src="/we-travel-to-you.jpg" alt="nurse with patient at home" />
