@@ -1,7 +1,7 @@
 <script>
-  export let src
-  export let name
-  export let description
+  export let item
+
+  const { src, name, description } = item
 </script>
 
 <li class="flow">

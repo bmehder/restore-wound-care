@@ -1,7 +1,7 @@
 <script>
+  import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
-  import { page } from '$app/stores'
   import menuItems from '$lib/Header/menuItems'
   import Header from '$lib/Header/Header.svelte'
   import MobileHeader from '$lib/Header/MobileHeader.svelte'

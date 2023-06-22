@@ -32,8 +32,8 @@
   <h2>Our Team</h2>
 
   <ul class="auto-grid">
-    {#each teamMembers as { src, name, description }}
-      <Member {src} {name} {description} />
+    {#each teamMembers as item}
+      <Member {item} />
     {/each}
   </ul>
 </section>

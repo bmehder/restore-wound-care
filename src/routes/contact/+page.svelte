@@ -1,20 +1,26 @@
-<svelte:head>
-  <title>Contact Us - Restore Wound Care</title>
-  <meta name="description" content="Restore Wound Care, LLC – Send Us A Message – Location – 9195 Grant Street, Suite 305, Thornton, CO 80229 – (720) 678-9868 (Phone) – (720) 678-9860 (Fax)">
-</svelte:head>
-
 <script>
   import Form from '$lib/Form.svelte'
 </script>
 
+<svelte:head>
+  <title>Contact Us - Restore Wound Care</title>
+  <meta
+    name="description"
+    content="Restore Wound Care, LLC – Send Us A Message – Location – 9195 Grant Street, Suite 305, Thornton, CO 80229 – (720) 678-9868 (Phone) – (720) 678-9860 (Fax)"
+  />
+</svelte:head>
+
 <h1 class="title">Contact Us</h1>
 
 <div class="flex">
-  <div class="flow form" style="flex: 2">
+  <div class="flow form">
     <h2>Send Us A Message</h2>
-    <Form api="https://submit-form.com/sAOnImzN" redirect="http://localhost:5173/contact/thank-you" />
+    <Form
+      api="https://submit-form.com/sAOnImzN"
+      redirect="http://localhost:5173/contact/thank-you"
+    />
   </div>
-  <div class="flow sidebar" style="flex: 1">
+  <div class="flow sidebar">
     <h2>Location</h2>
     <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
@@ -28,7 +34,8 @@
       Suite 305<br />
       Thornton, CO 80229<br />
       <a href="tel:7206789868">(720) 678-9868</a> (Phone)<br />
-      <a href="tel:7206789860">(720) 678-9860</a> (Fax)</p>
+      <a href="tel:7206789860">(720) 678-9860</a> (Fax)
+    </p>
   </div>
 </div>
 
@@ -39,17 +46,9 @@
     }
   }
 
-  .form {
-    flex: 1
-  }
-
-  .sidebar {
-    flex: 1
-  }
-
   @media (min-width: 32em) {
     .form {
-      flex: 2
+      flex: 2;
     }
   }
 </style>

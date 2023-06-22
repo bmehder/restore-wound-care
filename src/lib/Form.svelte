@@ -3,7 +3,7 @@
   export let redirect = ''
 </script>
 
-<form action="{api}" method="POST">
+<form action="{api}" method="POST" class="flow">
   <div class="columns">
     <div>
       <label for="first-name">First Name <span>*</span></label>
@@ -39,22 +39,8 @@
 </form>
 
 <style>
-  form {
-    width: min(100%, 48rem);
-    display: grid;
-    gap: var(--size);
-  }
-
   .columns {
     gap: var(--size);
-  }
-
-  label {
-    font-weight: 600;
-  }
-
-  span {
-    color: red;
   }
   
   div {
@@ -62,8 +48,8 @@
     gap: calc(var(--size) / 4);
   }
 
-  input, textarea {
-    padding: var(--half-size);
+  span {
+    color: red;
   }
   
   button {

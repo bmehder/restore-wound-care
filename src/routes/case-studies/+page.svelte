@@ -27,7 +27,7 @@
   </ul>
 </section>
 
-<section class="flow">
+<section class="flow" style="margin-block-start: var(--double-size);">
   <h2>Leg Wound Series</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit neque quos

@@ -36,7 +36,7 @@
 <section class="flow">
   <h2>Lorem Ipsum</h2>
 
-  <div class="columns">
+  <div class="columns" style="--gap: 1.5rem;">
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis
       molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias

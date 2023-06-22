@@ -1,4 +1,5 @@
 :root {
+  --size: 1.5rem;
   --half-size: calc(var(--size) / 2);
   --double-size: calc(var(--size) * 2);
   --triple-size: calc(var(--size) * 3);
@@ -7,6 +8,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Resets */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,6 +42,10 @@ ul {
 }
 
 /* Utilities */
+.flow > * + * {
+  margin-block-start: var(--flow);
+}
+
 .inner {
   width: var(--width);
   max-width: var(--max-width);
@@ -68,7 +74,7 @@ ul {
 @media (min-width: 49em) {
   .columns {
     grid-auto-flow: column;
-    gap: var(--gap, var(--double-size));
+    gap: var(--double-size);
   }
 }
 
@@ -97,13 +103,22 @@ ul {
   }
 }
 
-.flow > * + * {
-  margin-block-start: var(--flow);
+@media (min-width: 49em) {
+  .float-right {
+    float: right;
+    display: inline;
+    width: auto;
+    max-width: var(--max);
+    margin-block-start: var(--double-size);
+    margin-block-end: var(--size);
+    margin-inline-start: var(--double-size);
+    margin-inline-end: 0;
+  }
 }
 
-.square {
-  aspect-ratio: 1;
-  object-fit: cover;
+.center {
+  margin-inline: auto;
+  text-align: center;
 }
 
 .list {
@@ -121,22 +136,9 @@ ul {
   }
 }
 
-@media (min-width: 49em) {
-  .float-right {
-    float: right;
-    display: inline;
-    width: auto;
-    max-width: var(--max);
-    margin: var(--size);
-    margin-block-start: var(--double-size);
-    margin-inline-start: var(--double-size);
-    margin-inline-end: 0;
-  }
-}
-
-.center {
-  margin-inline: auto;
-  text-align: center;
+.square {
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 .video {
@@ -152,12 +154,6 @@ ul {
   height: 100%;
   inset: 0;
   border: 0;
-}
-
-section.full-bleed {
-  margin-block: var(--double-size);
-  padding-block-start: var(--double-size);
-  padding-block-end: calc(var(--double-size) + 0.5rem);
 }
 
 /* Skins */

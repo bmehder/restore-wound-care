@@ -3,23 +3,14 @@
   import Hamburger from '$lib/icons/Hamburger.svelte'
   import Close from '$lib/icons/Close.svelte'
 
-  // Component prop
   export let logo = 'Add Logo Prop!'
   export let menuItems
 
-  // Component State
   let isOpen = false
 
   const toggleMenu = () => (isOpen = !isOpen)
   const closeMenu = () => (isOpen = false)
 </script>
-
-<svelte:head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  />
-</svelte:head>
 
 <header class:isOpen>
   <div class="inner">
@@ -81,7 +72,7 @@
     flex-direction: column;
     gap: var(--size);
     padding-block-start: var(--double-size);
-    font-size: var(--size);
+    font-size: calc(var(--size) - 0.25rem);
     list-style: none;
   }
 
@@ -96,7 +87,7 @@
 
   a {
     display: block;
-    color: var(--light);
+    color: inherit;
   }
 
   :global(body:has(.isOpen)) {

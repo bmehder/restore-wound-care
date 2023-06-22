@@ -41,8 +41,6 @@
   }
 
   .logo {
-    /* font-size: 2rem; */
-    /* font-weight: bold; */
     max-width: 12em;
   }
 
@@ -50,8 +48,6 @@
     display: flex;
     gap: var(--size);
     list-style: none;
-    /* text-transform: uppercase; */
-    /* letter-spacing: 2px; */
   }
   
   ul ul {
