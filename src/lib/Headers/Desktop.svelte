@@ -4,7 +4,7 @@
 </script>
 
 <header>
-  <div class="inner flex">
+  <div class="inner">
     <div class="logo">
       <a href="/">{@html logo}</a>
     </div>
@@ -32,14 +32,11 @@
     background-color: var(--accent);
   }
   
-  .flex {
+  .inner {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .flex > * {
-    flex: unset;
   }
 
   .logo {
