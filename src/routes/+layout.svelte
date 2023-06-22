@@ -2,10 +2,13 @@
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
+  import menuItems from '$lib/Headers/menuItems'
   import Header from '$lib/Headers/Header.svelte'
   import Hero from '$lib/Hero.svelte'
   import Footer from '$lib/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
+
+  const logo = '<img src="/logo.png" alt="Restore Wound Care Logo">'
 
   $: isHome = $page.route.id === '/'
 </script>
@@ -21,7 +24,7 @@
 </svelte:head>
 
 <div class="wrapper">
-  <Header />
+  <Header {logo} {menuItems} />
 
   {#if isHome}
     <Hero image="/hero.jpg" />
@@ -42,6 +45,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
   }
+
   main {
     width: var(--width);
     max-width: var(--max-width);

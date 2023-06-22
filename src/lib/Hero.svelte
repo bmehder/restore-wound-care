@@ -3,13 +3,15 @@
 </script>
 
 <div class="hero" style="background-image: url({image})">
-  <div class="inner">
-    <div class="h2">A Revolution in Chronic Wound Care</div>
-    <div class="h3">Proudly serving the Front Range of Colorado</div>
-    <div>
-      <a class="button" aria-label="Request Appointment" href="/contact"
-        >Request Appointment</a
-      >
+  <div class="inner balance">
+    <div class="content">
+      <div class="h2">A Revolution in Chronic Wound Care</div>
+      <div class="h3">Proudly serving the Front Range of Colorado</div>
+      <div>
+        <a class="button" aria-label="Request Appointment" href="/contact"
+          >Request Appointment</a
+        >
+      </div>
     </div>
   </div>
 </div>
@@ -45,7 +47,7 @@
     color: var(--light);
     outline-color: var(--light);
   }
-  .inner {
+  .content {
     display: grid;
     gap: var(--size);
   }

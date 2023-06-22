@@ -52,9 +52,6 @@
     background-color: var(--accent);
     color: var(--light);
   }
-  .inner {
-    padding-block: var(--size);
-  }
   .top {
     display: flex;
     justify-content: space-between;
