@@ -1,17 +1,20 @@
-<svelte:head>
-  <title>Providers - Restore Wound Care</title>
-  <meta name="description" content="If you are a wound care provider with a patient who has not responded to the treatment you have provided so far, please consider us as a resource for healing.">
-</svelte:head>
-
 <script>
   import Qualified from '$lib/Qualified.svelte'
   import CTA from '$lib/CTA.svelte'
 </script>
 
+<svelte:head>
+  <title>Providers - Restore Wound Care</title>
+  <meta
+    name="description"
+    content="If you are a wound care provider with a patient who has not responded to the treatment you have provided so far, please consider us as a resource for healing."
+  />
+</svelte:head>
+
 <h1 class="title">Providers</h1>
 
 <section class="flow">
-  <h2>Frustrated by a chronic wound?</h2>
+  <h2>A Resource For Healing</h2>
   <img
     class="float-right"
     style="--max: 31em"
@@ -55,21 +58,37 @@
 
   <div class="flex">
     <div class="flow">
-      <p>When evaluating patients for this protocol please consider the following before recommending care.</p>
+      <p>
+        When evaluating patients for this protocol please consider the following before
+        recommending care.
+      </p>
       <h3>Qualified patients have a wound that...</h3>
       <Qualified />
     </div>
     <div class="flow">
-      <p>When evaluating patient referrals, please consider the following contraindications:</p>
+      <p>
+        When evaluating patient referrals, please consider the following
+        contraindications:
+      </p>
       <ul class="list">
         <li>infected wound,</li>
         <li>active cancer treatment,</li>
         <li>and/or immunosuppressive treatment.</li>
       </ul>
       <h3>Pre-Assessment</h3>
-      <p>Restore Medical will conduct assessment and amnio products preauthorization on all patients prior to treatment to ensure the protocol is applicable and insurance is confirmed for the treatment.</p>
+      <p>
+        Restore Medical will conduct assessment and amnio products preauthorization on all
+        patients prior to treatment to ensure the protocol is applicable and insurance is
+        confirmed for the treatment.
+      </p>
       <h3>Flexible Mobile Service</h3>
-      <p>No need to drive, we will come to you! Our flexible mobile service is available if transportation and mobility is a problem. We bill your insurance for the visit, so there is no cash fee involved. Additionally, we have <a href="/contact">multiple clinic locations</a> available for evaluations and treatments if you'd prefer.</p>
+      <p>
+        No need to drive, we will come to you! Our flexible mobile service is available if
+        transportation and mobility is a problem. We bill your insurance for the visit, so
+        there is no cash fee involved. Additionally, we have <a href="/contact"
+          >multiple clinic locations</a
+        > available for evaluations and treatments if you'd prefer.
+      </p>
     </div>
   </div>
 </section>

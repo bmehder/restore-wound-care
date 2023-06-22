@@ -44,7 +44,6 @@
       At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus,
       alias repellat tempora dicta cupiditate.
     </p>
-
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis
       molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias
@@ -78,7 +77,6 @@
 
 <section class="flow">
   <h2>Lorem Ipsum</h2>
-
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
     sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis
@@ -86,7 +84,6 @@
     Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
     tempora dicta cupiditate.
   </p>
-
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
     sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis
@@ -94,7 +91,6 @@
     Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
     tempora dicta cupiditate.
   </p>
-
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
     sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis

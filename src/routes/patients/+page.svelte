@@ -1,11 +1,14 @@
+<script>
+  import CTA from '$lib/CTA.svelte'
+</script>
+
 <svelte:head>
   <title>Patients - Restore Wound Care</title>
-  <meta name="description" content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care.">
+  <meta
+    name="description"
+    content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."
+  />
 </svelte:head>
-
-<script>
-  import CTA from '$lib/CTA.svelte';
-</script>
 
 <h1 class="title">Patients</h1>
 
@@ -48,7 +51,7 @@
 
 <section class="flow">
   <h2>How It Works</h2>
- 
+
   <h3>Get the Facts About Our Mobile Wound Care & Payment Options</h3>
 
   <p>

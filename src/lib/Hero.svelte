@@ -4,7 +4,13 @@
 
 <div class="hero" style="background-image: url({image})">
   <div class="inner">
-    <slot>Fallback content</slot>
+    <div class="h2">A Revolution in Chronic Wound Care</div>
+    <div class="h3">Proudly serving the Front Range of Colorado</div>
+    <div>
+      <a class="button" aria-label="Request Appointment" href="/contact"
+        >Request Appointment</a
+      >
+    </div>
   </div>
 </div>
 
@@ -20,22 +26,22 @@
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.6);
     letter-spacing: 1px;
   }
-  .hero :global(.h2) {
+  .h2 {
     color: var(--light);
     font-size: var(--double-size);
   }
-  .hero :global(.h3) {
+  .h3 {
     color: var(--light);
     font-size: calc(var(--size) + 0.5rem);
   }
-  .hero :global(.button) {
+  .button {
     display: inline-block;
     margin-block-start: var(--half-size);
     font-size: calc(var(--size) - 0.25rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.24);
   }
-  .hero :global(.button:hover),
-  .hero :global(.button:focus) {
+  .button:hover,
+  .button:focus {
     color: var(--light);
     outline-color: var(--light);
   }

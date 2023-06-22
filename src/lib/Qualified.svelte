@@ -1,20 +1,20 @@
-<aside>
+<div class="graphic">
   <div class="one">Is an open wound on the skin</div>
   <div class="two">Is not infected</div>
   <div class="three">Is greater than 1 square cm</div>
   <div class="four">Has not improved after 4 weeks of therapy</div>
-</aside>
+</div>
 
 <style>
-  aside {
+  .graphic {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: calc(var(--half-size) / 2);
+    gap: calc(var(--size) / 4);
     font-weight: bold;
     color: var(--accent);
     text-align: center;
   }
-  div {
+  .graphic > * {
     display: grid;
     place-content: center;
     padding-inline: var(--size);

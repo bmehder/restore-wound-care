@@ -30,7 +30,6 @@
 
 <section class="flow">
   <h2>Our Team</h2>
-
   <ul class="auto-grid">
     {#each teamMembers as item}
       <Member {item} />
