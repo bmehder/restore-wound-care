@@ -50,7 +50,7 @@ ul {
   width: var(--width);
   max-width: var(--max-width);
   margin-inline: auto;
-  padding-block: var(--double-size);
+  padding-block: var(--size);
 }
 
 .auto-grid {

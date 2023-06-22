@@ -9,3 +9,9 @@
     <p>Patient Fax Line: <a href="tel:7206789860">(720) 678-9860</a></p>
   </div>
 </footer>
+
+<style>
+  footer > div {
+    padding-block: var(--double-size);
+  }
+</style>

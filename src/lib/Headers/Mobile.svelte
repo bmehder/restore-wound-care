@@ -52,6 +52,7 @@
     background-color: var(--accent);
     color: var(--light);
   }
+  
   .top {
     display: flex;
     justify-content: space-between;

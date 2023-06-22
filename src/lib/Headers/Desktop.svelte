@@ -36,7 +36,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-block: calc(var(--size) * 1.5);
   }
 
   .flex > * {
