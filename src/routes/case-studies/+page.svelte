@@ -19,7 +19,7 @@
     sapiente facilis eveniet consequatur. Ratione animi perspiciatis vitae dignissimos quo
     voluptates in, quia nisi sed assumenda obcaecati aliquam itaque!
   </p>
-  <ul class="auto-grid">
+  <ul class="auto-grid top">
     {#each top as item}
       <Wound {item} />
     {/each}
@@ -41,3 +41,11 @@
     {/each}
   </ul>
 </section>
+
+<style>
+  @media (min-width: 48em) {
+    .top {
+      --min: 20em      
+    }
+  }
+</style>

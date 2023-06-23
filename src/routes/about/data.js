@@ -5,12 +5,6 @@ export default [
     description: `Dr. Lilliane Sarraff is a native of Florida and received her MD at Ross University. She proudly serves patients in southern Denver and surrounding areas. She is passionate about excellent wound care and giving patients back their ability to participate in the things they love. Dr. Sarraff joined RWC in 2022, and when she’s not helping patients, she can be found in her garden.`,
   },
   {
-    src: '/team/melanie-markadakis.jpg',
-    // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
-    name: 'M. Markadakis, MSN, APRN, FNP-C',
-    description: ``,
-  },
-  {
     src: '/team/kate-thompson.jpg',
     name: 'Kate Thompson, FNP-C',
     description: `Kate Thompson is a native of Maryland and received her BSN, MSN and FNP-C at The
@@ -34,5 +28,11 @@ export default [
       in the technology, graft technique and homecare model that makes RWC unique. Shaun
       joined RWC in 2022, and when he’s not helping patients, he can be found at a pick-up
       soccer game.`,
+  },
+  {
+    src: '/team/melanie-markadakis.jpg',
+    // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
+    name: 'M. Markadakis, MSN, APRN, FNP-C',
+    description: ``,
   },
 ]
