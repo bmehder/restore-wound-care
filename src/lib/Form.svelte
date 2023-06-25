@@ -1,38 +1,49 @@
 <script>
   export let api = ''
   export let redirect = ''
+  export let botpoison = ''
+  export let isPhoneRequired = true
 </script>
 
-<form action="{api}" method="POST" class="flow">
+<svelte:head>
+  <script src="https://unpkg.com/@botpoison/browser" async></script>
+</svelte:head>
+
+<form class="flow" method="POST" action={api} data-botpoison-public-key={botpoison}>
   <div class="columns">
     <div>
       <label for="first-name">First Name <span>*</span></label>
-      <input type="text" id="first-name" name="first-name" required/>
+      <input type="text" id="first-name" name="first-name" required />
     </div>
     <div>
       <label for="last-name">Last Name <span>*</span></label>
-      <input type="text" id="last-name" name="last-name" required/>
+      <input type="text" id="last-name" name="last-name" required />
     </div>
   </div>
   <div class="columns">
     <div>
       <label for="email">Email <span>*</span></label>
-      <input type="email" id="email" name="email" required/>
+      <input type="email" id="email" name="email" required />
     </div>
     <div>
-      <label for="phone">Phone <span>*</span></label>
-      <input type="phone" id="phone" name="phone" required/>
+      <label for="phone"
+        >Phone {#if isPhoneRequired}<span>*</span>{/if}</label
+      >
+      <input type="phone" id="phone" name="phone" required={isPhoneRequired} />
     </div>
   </div>
   <div>
     <label for="message">Message <span>*</span></label>
-    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+    <textarea id="message" name="message" cols="30" rows="10" required />
   </div>
   <input
-    type="hidden"
-    name="_redirect"
-    value="{redirect}"
+    type="checkbox"
+    name="_honeypot"
+    style="display:none"
+    tabindex="-1"
+    autocomplete="off"
   />
+  <input type="hidden" name="_redirect" value={redirect} />
   <div>
     <button type="submit">Submit Message</button>
   </div>
@@ -42,7 +53,7 @@
   .columns {
     gap: var(--size);
   }
-  
+
   div {
     display: grid;
     gap: calc(var(--size) / 4);
@@ -51,7 +62,7 @@
   span {
     color: red;
   }
-  
+
   button {
     padding-block: var(--size);
   }

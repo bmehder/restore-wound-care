@@ -80,10 +80,9 @@
   a:hover {
     text-decoration-color: var(--alt-one);
   }
-
+  
   a[aria-current='true'] {
     text-decoration: underline;
-    text-decoration-thickness: calc(var(--size) / 12);
     text-decoration-color: var(--light);
   }
 </style>
