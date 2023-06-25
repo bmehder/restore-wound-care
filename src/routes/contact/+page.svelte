@@ -1,5 +1,9 @@
 <script>
+  import { dev } from '$app/environment';
   import Form from '$lib/Form.svelte'
+
+  const devURL = 'http://localhost:5173/contact/thank-you'
+  const prodURL = 'https://restore-wound-care.vercel.app/contact/thank-you'
 </script>
 
 <svelte:head>
@@ -18,7 +22,7 @@
     <Form
       api="https://submit-form.com/sAOnImzN"
       botpoison="pk_a3136ac2-f7c3-4fee-8735-5285801ca731"
-      redirect="http://localhost:5173/contact/thank-you"
+      redirect="{dev ? devURL : prodURL}"
     />
   </div>
   <div class="flow sidebar">
