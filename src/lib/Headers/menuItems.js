@@ -12,11 +12,11 @@ export default [
     // ],
   },
   {
-    name: 'Patients',
+    name: 'For Patients',
     url: '/patients',
   },
   {
-    name: 'Providers',
+    name: 'For Providers',
     url: '/providers',
   },
   {

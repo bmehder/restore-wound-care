@@ -1,4 +1,5 @@
 <script>
+  import { page } from '$app/stores'
   import { slide } from 'svelte/transition'
   import Hamburger from '$lib/icons/Hamburger.svelte'
   import Close from '$lib/icons/Close.svelte'
@@ -31,12 +32,18 @@
         <ul>
           {#each menuItems as { name, url, children }}
             <li>
-              <a on:click={closeMenu} href={url}>{name}</a>
+              <a aria-current={$page.url.pathname === url} on:click={closeMenu} href={url}
+                >{name}</a
+              >
             </li>
             {#if children}
               {#each children as { name, url }}
                 <li class="child">
-                  <a on:click={closeMenu} href={url}>{name}</a>
+                  <a
+                    aria-current={$page.url.pathname === url}
+                    on:click={closeMenu}
+                    href={url}>{name}</a
+                  >
                 </li>
               {/each}
             {/if}
@@ -52,7 +59,7 @@
     background-color: var(--accent);
     color: var(--light);
   }
-  
+
   .top {
     display: flex;
     justify-content: space-between;
@@ -86,6 +93,10 @@
   a {
     display: block;
     color: inherit;
+  }
+
+  a[aria-current='true'] {
+    color: var(--alt-one);
   }
 
   :global(body:has(.isOpen)) {
