@@ -1,13 +1,14 @@
 <script>
+  import { fly } from 'svelte/transition'
   export let image = ''
 </script>
 
 <div class="hero" style="background-image: url({image})">
   <div class="inner balance">
     <div class="content">
-      <div class="h2">A Revolution in Chronic Wound Care</div>
-      <div class="h3">Proudly serving the Front Range of Colorado</div>
-      <div>
+      <div in:fly={{x: -1000, y: -1000, delay: 500, opacity: 0}} class="h2">A Revolution in Chronic Wound Care</div>
+      <div in:fly={{x: 1000, y: -1000, delay: 700, opacity: 0}} class="h3">Proudly serving the Front Range of Colorado</div>
+      <div in:fly={{y: 1000, delay: 900, opacity: 0}}>
         <a class="button" aria-label="Request Appointment" href="/contact"
           >Request Appointment</a
         >

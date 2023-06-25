@@ -1,4 +1,5 @@
 <script>
+  import { fade, slide, fly } from 'svelte/transition'
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
@@ -10,7 +11,14 @@
 
   const logo = '<img src="/logo.png" alt="Restore Wound Care Logo">'
 
+  const transitions = {
+    in: { delay: 500, duration: 300, x: -1000, opacity: 0 },
+    out: { delay: 0, duration: 100 },
+  }
+
   $: isHome = $page.route.id === '/'
+
+  export let data
 </script>
 
 <svelte:head>
@@ -27,11 +35,19 @@
   <Header {logo} {menuItems} />
 
   {#if isHome}
-    <Hero image="/hero.jpg" />
+    {#key data.url}
+      <div in:slide={{duration:100}} out:fade={transitions.out}>
+        <Hero image="/hero.jpg" />
+      </div>
+    {/key}
   {/if}
 
   <main class="flow">
-    <slot />
+    {#key data.url}
+      <div class="flow" in:fly={transitions.in} out:fade={transitions.out}>
+        <slot />
+      </div>
+    {/key}
   </main>
 
   <Footer />
