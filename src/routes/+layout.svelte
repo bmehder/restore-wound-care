@@ -2,7 +2,6 @@
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
-  import PageTransition from '$lib/PageTransition.svelte'
   import menuItems from '$lib/Headers/menuItems'
   import Header from '$lib/Headers/Header.svelte'
   import Hero from '$lib/Hero.svelte'
@@ -12,8 +11,6 @@
   const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
 
   $: isHome = $page.route.id === '/'
-
-  export let data
 </script>
 
 <svelte:head>
@@ -30,15 +27,11 @@
   <Header {logo} {menuItems} />
 
   {#if isHome}
-    <PageTransition key={data.url}>
-      <Hero image="/hero.jpg" />
-    </PageTransition>
+    <Hero image="/hero.jpg" />
   {/if}
 
   <main class="flow">
-    <PageTransition key={data.url}>
-      <slot />
-    </PageTransition>
+    <slot />
   </main>
 
   <Footer />
