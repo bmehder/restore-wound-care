@@ -1,21 +1,15 @@
 <script>
-  import { fade, slide, fly } from 'svelte/transition'
-  import Transitions from '$lib/Transitions.svelte'
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
+  import PageTransition from '$lib/PageTransition.svelte'
   import menuItems from '$lib/Headers/menuItems'
   import Header from '$lib/Headers/Header.svelte'
   import Hero from '$lib/Hero.svelte'
   import Footer from '$lib/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
 
-  const logo = '<img src="/logo.png" alt="Restore Wound Care Logo">'
-
-  const transitions = {
-    in: { delay: 500, duration: 300, x: -1000, opacity: 0 },
-    out: { delay: 0, duration: 100 },
-  }
+  const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
 
   $: isHome = $page.route.id === '/'
 
@@ -36,15 +30,15 @@
   <Header {logo} {menuItems} />
 
   {#if isHome}
-    <Transitions key={data.url}>
+    <PageTransition key={data.url}>
       <Hero image="/hero.jpg" />
-    </Transitions>
+    </PageTransition>
   {/if}
 
   <main class="flow">
-    <Transitions key={data.url}>
+    <PageTransition key={data.url}>
       <slot />
-    </Transitions>
+    </PageTransition>
   </main>
 
   <Footer />
