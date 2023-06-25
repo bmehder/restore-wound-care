@@ -1,5 +1,6 @@
 <script>
   import { fade, slide, fly } from 'svelte/transition'
+  import Transitions from '$lib/Transitions.svelte'
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
@@ -35,19 +36,15 @@
   <Header {logo} {menuItems} />
 
   {#if isHome}
-    {#key data.url}
-      <div in:slide={{duration:100}} out:fade={transitions.out}>
-        <Hero image="/hero.jpg" />
-      </div>
-    {/key}
+    <Transitions key={data.url}>
+      <Hero image="/hero.jpg" />
+    </Transitions>
   {/if}
 
   <main class="flow">
-    {#key data.url}
-      <div class="flow" in:fly={transitions.in} out:fade={transitions.out}>
-        <slot />
-      </div>
-    {/key}
+    <Transitions key={data.url}>
+      <slot />
+    </Transitions>
   </main>
 
   <Footer />
