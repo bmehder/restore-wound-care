@@ -9,6 +9,7 @@
   import BackToTop from '$lib/BackToTop.svelte'
 
   const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
+  const mobileThreshold = 1224
 
   $: isHome = $page.route.id === '/'
 </script>
@@ -24,7 +25,7 @@
 </svelte:head>
 
 <div class="wrapper">
-  <Header {logo} {menuItems} />
+  <Header {logo} {menuItems} {mobileThreshold} />
 
   {#if isHome}
     <Hero image="/hero.jpg" />
