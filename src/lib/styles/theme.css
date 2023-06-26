@@ -126,3 +126,12 @@ section.full-bleed {
 .bg-accent :is(h1, h2, h3, .h1, .h2, .h3) {
   color: var(--light);
 }
+
+/* Images */
+main img {
+  border: 1px solid lightgray;
+}
+
+.full-bleed img {
+  border: unset;
+}

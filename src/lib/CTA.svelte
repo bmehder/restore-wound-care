@@ -10,3 +10,11 @@
   <a class="button" href="/contact"><Phone /> Contact us</a>
 </section>
 
+<style>
+  .h1 {
+    margin-inline: auto;
+    border-bottom: 4px solid var(--alt-one);
+    width: max-content;
+  }
+</style>
+

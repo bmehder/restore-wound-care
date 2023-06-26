@@ -1,7 +1,9 @@
 <script>
-  import { dev } from '$app/environment';
-  import Form from '$lib/Form.svelte'
+  import { dev } from '$app/environment'
+  import FormSpark from '$lib/FormSpark.svelte'
 
+  const FORMSPARK_URL = 'https://submit-form.com/sAOnImzN'
+  const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
   const devURL = 'http://localhost:5173/contact/thank-you'
   const prodURL = 'https://restore-wound-care.vercel.app/contact/thank-you'
 </script>
@@ -19,10 +21,10 @@
 <div class="flex">
   <div class="flow form">
     <h2>Send Us A Message</h2>
-    <Form
-      api="https://submit-form.com/sAOnImzN"
-      botpoison="pk_a3136ac2-f7c3-4fee-8735-5285801ca731"
-      redirect="{dev ? devURL : prodURL}"
+    <FormSpark
+      formSparkURL={FORMSPARK_URL}
+      botpoison={BOTPOISON_KEY}
+      redirect={dev ? devURL : prodURL}
     />
   </div>
   <div class="flow sidebar">

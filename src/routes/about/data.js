@@ -31,8 +31,8 @@ export default [
   },
   {
     src: '/team/melanie-markadakis.jpg',
-    // name: 'Melanie Markadakis, MSN, APRN, FNP-C',
-    name: 'M. Markadakis, MSN, APRN, FNP-C',
+    name: 'Melanie Markadakis, MSN, APRN, FNP-C',
+    // name: 'M. Markadakis, MSN, APRN, FNP-C',
     description: ``,
   },
 ]

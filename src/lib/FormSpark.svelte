@@ -1,15 +1,37 @@
 <script>
-  export let api = ''
+  export let formSparkURL = ''
   export let redirect = ''
   export let botpoison = ''
   export let isPhoneRequired = true
+
+  let isBotpoisoning = false
+
+  const handleBotPoisonStart = () => {
+    console.log('challenge started.')
+    isBotpoisoning = true
+  }
+
+  const handleBotPoisonSuccess = () => {
+    console.log('challenge success.')
+    isBotpoisoning = false
+  }
+  
+  const handleBotPoisonError = () => console.log('challenge error.')
 </script>
 
 <svelte:head>
   <script src="https://unpkg.com/@botpoison/browser" async></script>
 </svelte:head>
 
-<form class="flow" method="POST" action={api} data-botpoison-public-key={botpoison}>
+<form
+  class="flow"
+  method="POST"
+  action={formSparkURL}
+  data-botpoison-public-key={botpoison}
+  on:botpoison-challenge-start={handleBotPoisonStart}
+  on:botpoison-challenge-success={handleBotPoisonSuccess}
+  on:botpoison-challenge-error={handleBotPoisonError}
+>
   <div class="columns">
     <div>
       <label for="first-name">First Name <span>*</span></label>
@@ -36,16 +58,18 @@
     <label for="message">Message <span>*</span></label>
     <textarea id="message" name="message" cols="30" rows="10" required />
   </div>
-  <input
-    type="checkbox"
-    name="_honeypot"
-    style="display:none"
-    tabindex="-1"
-    autocomplete="off"
-  />
-  <input type="hidden" name="_redirect" value={redirect} />
+  <div style="display: contents;">
+    <input
+      type="checkbox"
+      name="_honeypot"
+      style="display:none"
+      tabindex="-1"
+      autocomplete="off"
+    />
+    <input type="hidden" name="_redirect" value={redirect} />
+  </div>
   <div>
-    <button type="submit">Submit Message</button>
+    <button type="submit" disabled={isBotpoisoning}>Submit Message</button>
   </div>
 </form>
 

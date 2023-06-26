@@ -51,10 +51,9 @@
   ul {
     display: flex;
     gap: var(--size);
-    list-style: none;
   }
 
-  ul ul {
+  ul li ul {
     display: none;
   }
 
@@ -67,7 +66,6 @@
     left: calc(var(--size) * -1);
     display: block;
     padding: var(--size);
-    padding-block-start: var(--size);
     background-color: var(--accent);
   }
 

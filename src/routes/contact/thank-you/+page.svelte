@@ -1,5 +1,6 @@
 <svelte:head>
   <title>Message Received - Restore Wound Care</title>
+  <meta name="robots" content="noindex" />
 </svelte:head>
 
 <section class="flow">
