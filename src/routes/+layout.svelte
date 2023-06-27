@@ -38,7 +38,7 @@
   <Footer />
 </div>
 
-<BackToTop />
+<BackToTop --bg-color='black' />
 
 <style>
   .wrapper {

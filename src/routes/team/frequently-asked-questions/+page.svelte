@@ -1,8 +1,8 @@
 <script>
   import CaretDown from '$lib/icons/CaretDown.svelte'
   import CaretRight from '$lib/icons/CaretRight.svelte'
-  import questionsAndAnswers from './data'
-  import Faq from './FAQ.svelte'
+  import questionsAndAnswers from './faqs'
+  import Faq from '$lib/FAQ.svelte'
 </script>
 
 <svelte:head>

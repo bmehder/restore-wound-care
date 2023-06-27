@@ -12,7 +12,7 @@
 
 <section class="flow">
   <h2>Meet Our Team</h2>
-  <ul>
+  <ul class="flow">
     {#each teamMembers as item}
       <Member {item} />
     {/each}

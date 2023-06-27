@@ -1,7 +1,6 @@
 <script>
   import { fade } from 'svelte/transition'
 
-  export let color = 'black'
   export let icon = '&#8593;'
   export let threshold = 1000
 
@@ -13,12 +12,7 @@
 <svelte:window bind:scrollY />
 
 {#if scrollY > threshold}
-  <button
-    style="background-color: {color}"
-    transition:fade
-    on:click={scrollToTop}
-    on:keydown
-  >
+  <button transition:fade on:click={scrollToTop}>
     {@html icon}
   </button>
 {/if}
@@ -26,13 +20,14 @@
 <style>
   button {
     display: grid;
-    place-content: center;
+    place-items: center;
     padding: 0;
     width: var(--triple-size);
     aspect-ratio: 1;
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+    background-color: var(--bg-color, var(--accent));
     color: var(--light, white);
     font-size: var(--size);
     font-weight: bold;

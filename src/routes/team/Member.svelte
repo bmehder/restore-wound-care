@@ -7,7 +7,7 @@
 <li>
   <img class="square" {src} alt={name} />
   <div class="flow">
-    <h3>{name}</h3>
+    <h3 class="balance">{name}</h3>
     <p>
       {description}
     </p>
@@ -17,10 +17,6 @@
 <style>
   li {
     background-color: var(--light);
-  }
-  
-  h3 {
-    text-wrap: balance;
   }
 
   div {

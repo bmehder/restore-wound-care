@@ -7,8 +7,8 @@ export default [
     name: 'Team',
     url: '/team',
     // children: [
-    //   { name: 'FAQs', url: '/about/frequently-asked-questions' },
-    //   { name: 'Educational Thing', url: '/about/education' },
+    //   { name: 'FAQs', url: '/team/frequently-asked-questions' },
+    //   { name: 'Educational Thing', url: '/team/education' },
     // ],
   },
   {

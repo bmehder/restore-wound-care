@@ -1,6 +1,10 @@
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
   import Phone from '$lib/icons/Phone.svelte'
+  import CaretDown from '$lib/icons/CaretDown.svelte'
+  import CaretRight from '$lib/icons/CaretRight.svelte'
+  import questionsAndAnswers from './faqs'
+  import Faq from '$lib/FAQ.svelte'
 </script>
 
 <svelte:head>
@@ -75,7 +79,8 @@
   </div>
 </section>
 
-<section class="flow">
+
+<!-- <section class="flow">
   <h2>Lorem Ipsum</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
@@ -98,4 +103,13 @@
     Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
     tempora dicta cupiditate.
   </p>
+</section> -->
+
+<section class="flow">
+  <h2>Frequently Asked Questions</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error eveniet ratione consequuntur nemo magnam voluptate culpa alias! Ipsum, numquam dignissimos nemo autem aut veniam, illum cum cupiditate illo officiis magni. Laborum?</p>
+  {#each questionsAndAnswers as { question, answer }}
+    <Faq {question} {answer} classNames="h3" openIcon={CaretRight} closeIcon={CaretDown} />
+  {/each}
 </section>
+
