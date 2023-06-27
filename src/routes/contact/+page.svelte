@@ -1,6 +1,6 @@
 <script>
   import { dev } from '$app/environment'
-  import FormSpark from '$lib/FormSpark.svelte'
+  import FormSpark from './FormSpark.svelte'
 
   const FORMSPARK_URL = 'https://submit-form.com/sAOnImzN'
   const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'

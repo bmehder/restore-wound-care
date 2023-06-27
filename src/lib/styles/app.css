@@ -41,6 +41,11 @@ button {
   font-size: inherit;
 }
 
+input,
+textarea {
+  border: 1px solid gray;
+}
+
 ul {
   list-style: none;
 }

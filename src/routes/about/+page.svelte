@@ -1,6 +1,6 @@
 <script>
   import teamMembers from './data'
-  import Member from '$lib/Member.svelte'
+  import Member from './Member.svelte'
 </script>
 
 <svelte:head>

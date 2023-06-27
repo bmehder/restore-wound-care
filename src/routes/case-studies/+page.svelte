@@ -1,6 +1,6 @@
 <script>
   import { top, legWounds } from './data'
-  import Wound from '$lib/Wound.svelte'
+  import Wound from './Wound.svelte'
 </script>
 
 <svelte:head>

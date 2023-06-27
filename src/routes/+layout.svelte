@@ -4,8 +4,8 @@
   import '$lib/styles/theme.css'
   import menuItems from '$lib/Headers/menuItems'
   import Header from '$lib/Headers/Header.svelte'
-  import Hero from '$lib/Hero.svelte'
-  import Footer from '$lib/Footer.svelte'
+  import HomeHero from './HomeHero.svelte'
+  import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
 
   const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
@@ -28,7 +28,7 @@
   <Header {logo} {menuItems} {mobileThreshold} />
 
   {#if isHome}
-    <Hero image="/hero.jpg" />
+    <HomeHero image="/hero.jpg" />
   {/if}
 
   <main class="flow">

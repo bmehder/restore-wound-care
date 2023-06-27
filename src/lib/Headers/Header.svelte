@@ -1,22 +1,18 @@
 <script>
-  import { onMount } from 'svelte'
-  import Desktop from '$lib/Headers/Desktop.svelte'
-  import Mobile from '$lib/Headers/Mobile.svelte'
+  import DesktopHeader from '$lib/Headers/DesktopHeader.svelte'
+  import MobileHeader from '$lib/Headers/MobileHeader.svelte'
 
-  export let mobileThreshold
   export let logo = 'Logo'
   export let menuItems
+  export let mobileThreshold = 768
 
-  let innerWidth
-  let isMounted = false
-
-  onMount(() => (isMounted = true))
+  let innerWidth = null
 </script>
 
 <svelte:window bind:innerWidth />
 
 {#if innerWidth > mobileThreshold}
-  <Desktop {logo} {menuItems} />
-{:else if isMounted}
-  <Mobile {logo} {menuItems} />
+  <DesktopHeader {logo} {menuItems} />
+{:else if innerWidth}
+  <MobileHeader {logo} {menuItems} />
 {/if}

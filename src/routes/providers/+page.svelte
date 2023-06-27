@@ -1,5 +1,5 @@
 <script>
-  import Qualified from '$lib/Qualified.svelte'
+  import Qualified from './Qualified.svelte'
   import CTA from '$lib/CTA.svelte'
 </script>
 

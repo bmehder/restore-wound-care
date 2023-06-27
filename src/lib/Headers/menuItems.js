@@ -7,8 +7,8 @@ export default [
     name: 'About Us',
     url: '/about',
     // children: [
-    //   { name: 'History', url: '/about/history' },
-    //   { name: 'Education', url: '/about/education' },
+    //   { name: 'FAQs', url: '/about/frequently-asked-questions' },
+    //   { name: 'Educational Thing', url: '/about/education' },
     // ],
   },
   {

@@ -1,4 +1,6 @@
 <script>
+  import {fly} from 'svelte/transition'
+  
   export let transition = fly
   export let key
   export let amount

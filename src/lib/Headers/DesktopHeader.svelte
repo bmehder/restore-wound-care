@@ -62,6 +62,7 @@
   }
 
   ul li:hover ul {
+    width: max-content;
     position: absolute;
     left: calc(var(--size) * -1);
     display: block;

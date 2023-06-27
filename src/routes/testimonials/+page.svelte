@@ -1,5 +1,5 @@
 <script>
-  import Vimeo from '$lib/Vimeo.svelte'
+  import Vimeo from './Vimeo.svelte'
   import videos from './data'
 </script>
 
