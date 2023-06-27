@@ -9,7 +9,7 @@
   import BackToTop from '$lib/BackToTop.svelte'
 
   const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
-  const mobileThreshold = 1224
+  const mobileThreshold = 1240
 
   $: isHome = $page.route.id === '/'
 </script>

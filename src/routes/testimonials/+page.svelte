@@ -1,6 +1,6 @@
 <script>
-  import Vimeo from './Vimeo.svelte'
   import videos from './data'
+  import Vimeo from './Vimeo.svelte'
 </script>
 
 <svelte:head>

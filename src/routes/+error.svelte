@@ -8,8 +8,6 @@
 
 <div class="flow center">
   <h1>{$page.status} – Page {$page.error.message}</h1>
-  <p class="h2">Requested page:</p>
-  <a href on:click|preventDefault class="bad-link">{$page.url}</a>
 </div>
 
 <style>
@@ -17,12 +15,5 @@
     display: grid;
     place-items: center;
     margin-block-start: var(--double-size);
-  }
-  .bad-link {
-    cursor: not-allowed;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    white-space: normal;
-    hyphens: auto;
   }
 </style>

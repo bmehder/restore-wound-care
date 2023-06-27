@@ -25,7 +25,6 @@ body {
   overflow-wrap: break-word;
   word-wrap: break-word;
   white-space: normal;
-  overflow-x: hidden;
 }
 
 img,
@@ -118,7 +117,7 @@ ul {
     display: inline;
     width: auto;
     max-width: var(--max);
-    margin-block-start: var(--double-size);
+    margin-block-start: calc(var(--size) + 8px);
     margin-block-end: var(--size);
     margin-inline-start: var(--double-size);
     margin-inline-end: 0;
@@ -167,6 +166,9 @@ ul {
   height: 100%;
   inset: 0;
   border: 0;
+}
+.auto-hyphen {
+  hyphens: auto;
 }
 
 /* Skins */

@@ -1,4 +1,5 @@
 <script>
+  import Phone from '$lib/icons/Phone.svelte'
   import CTA from '$lib/CTA.svelte'
 </script>
 
@@ -47,7 +48,13 @@
   </p>
 </section>
 
-<CTA />
+<CTA>
+  <p class="h1">Contact Us</p>
+  <p>
+    Discuss your situation, and set up an evaluation.
+  </p>
+  <a class="button" href="/contact"><Phone /> Contact us</a>
+</CTA>
 
 <section class="flow">
   <h2>How It Works</h2>
