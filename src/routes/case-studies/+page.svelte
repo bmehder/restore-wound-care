@@ -45,7 +45,7 @@
 <style>
   @media (min-width: 48em) {
     .top {
-      --min: 20em      
+      max-width: 41em;    
     }
   }
 </style>
