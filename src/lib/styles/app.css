@@ -24,8 +24,8 @@ body {
   font-family: var(--fonts);
   overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
   white-space: normal;
+  overflow-x: hidden;
 }
 
 img,

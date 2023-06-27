@@ -20,5 +20,9 @@
   }
   .bad-link {
     cursor: not-allowed;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    hyphens: auto;
   }
 </style>
