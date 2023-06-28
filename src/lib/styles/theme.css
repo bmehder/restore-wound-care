@@ -99,7 +99,7 @@ textarea {
   text-decoration: underline;
   text-decoration-color: var(--alt-one);
   text-decoration-thickness: 2px;
-  text-underline-offset: var(--size);
+  text-underline-offset: var(--half-size);
 }
 
 /* Layout */

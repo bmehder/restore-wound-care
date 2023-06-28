@@ -1,6 +1,7 @@
 <script>
   import Qualified from './Qualified.svelte'
   import CTA from '$lib/CTA.svelte'
+  import Download from '$lib/icons/Download.svelte'
 </script>
 
 <svelte:head>
@@ -53,10 +54,10 @@
 
 <CTA>
   <p class="h1 underline">Patient Referral Form</p>
-  <p>
-    Call our Office at (720) 678-9868 with questions or for additional information.
+  <p class="balance">
+    Call our office at (720) 678-9868 with questions or for additional information.
   </p>
-  <a class="button" href="/referral-form_v3-restore-wound-care.docx">Download Form</a>
+  <a class="button" href="/referral-form_v3-restore-wound-care.docx">Download Form <Download /></a>
 </CTA>
 
 <section class="flow">

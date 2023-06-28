@@ -22,6 +22,6 @@
 <style>
   ul {
     display: grid;
-    gap: var(--double-size);
+    gap: var(--size);
   }
 </style>
