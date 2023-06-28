@@ -1,11 +1,11 @@
 <script>
   import { page } from '$app/stores'
   import { slide } from 'svelte/transition'
+  import menuItems from '$lib/Headers/menuItems'
   import Hamburger from '$lib/icons/Hamburger.svelte'
   import Close from '$lib/icons/Close.svelte'
 
   export let logo = 'Add Logo Prop!'
-  export let menuItems
 
   let isOpen = false
 

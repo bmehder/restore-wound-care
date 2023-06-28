@@ -2,16 +2,12 @@
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
-  import menuItems from '$lib/Headers/menuItems'
   import Header from '$lib/Headers/Header.svelte'
   import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
 
-  const logo = '<img src="/logo.png" alt="Restore Wound Care Logo" />'
   const mobileThreshold = 1240
-
-  $: isHome = $page.route.id === '/'
 </script>
 
 <svelte:head>
@@ -25,9 +21,9 @@
 </svelte:head>
 
 <div class="wrapper">
-  <Header {logo} {menuItems} {mobileThreshold} />
+  <Header {mobileThreshold} />
 
-  {#if isHome}
+  {#if $page.route.id === '/'}
     <HomeHero image="/hero.jpg" />
   {/if}
 
@@ -38,7 +34,7 @@
   <Footer />
 </div>
 
-<BackToTop --bg-color='black' />
+<BackToTop --bg-color='black' --color='var(--light)' />
 
 <style>
   .wrapper {

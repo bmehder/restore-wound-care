@@ -1,7 +1,7 @@
 <script>
   import { fade } from 'svelte/transition'
+  import CircleUp from './icons/CircleUp.svelte';
 
-  export let icon = '&#8593;'
   export let threshold = 1000
 
   const scrollToTop = () => window.scrollTo(0, 0)
@@ -13,24 +13,19 @@
 
 {#if scrollY > threshold}
   <button transition:fade on:click={scrollToTop}>
-    {@html icon}
+    <CircleUp />
   </button>
 {/if}
 
 <style>
   button {
-    display: grid;
-    place-items: center;
-    padding: 0;
-    width: var(--triple-size);
-    aspect-ratio: 1;
     position: fixed;
     right: 2rem;
     bottom: 2rem;
-    background-color: var(--bg-color, var(--accent));
-    color: var(--light, white);
+    padding: 0;
+    background-color: var(--color, var(--light));
+    color: var(--bg-color, var(--accent));
     font-size: var(--size);
-    font-weight: bold;
     border: 0.25rem solid var(--light, white);
     border-radius: 50%;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.24);

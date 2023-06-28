@@ -1,8 +1,8 @@
 <script>
   import { page } from '$app/stores'
+  import menuItems from '$lib/Headers/menuItems'
 
   export let logo = 'Add Logo Prop!'
-  export let menuItems
 </script>
 
 <header>
