@@ -34,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     gap: var(--size);
+    font-weight: normal;
   }
 
   .answer {

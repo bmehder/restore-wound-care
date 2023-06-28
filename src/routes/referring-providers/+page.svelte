@@ -9,7 +9,6 @@
     name="description"
     content="If you are a wound care provider with a patient who has not responded to the treatment you have provided so far, please consider us as a resource for healing."
   />
-  <link rel="preload" as="image" href="/providers.jpg">
 </svelte:head>
 
 <h1 class="title">Referring Providers</h1>
