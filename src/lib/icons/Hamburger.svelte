@@ -12,7 +12,7 @@
     in:fade={{ duration: 0 }}
     aria-expanded="true"
     aria-controls="header-nav"
-    aria-label="hamburger"
+    aria-label="Open"
   >
     <i class="fa-sharp fa-solid fa-2x fa-bars" />
   </button>

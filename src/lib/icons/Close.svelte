@@ -1,4 +1,4 @@
-<button aria-expanded="false" aria-controls="header-nav">
+<button aria-label="Close" aria-expanded="false" aria-controls="header-nav">
   <i class="fa-solid fa-2x fa-xmark" />
 </button>
 
