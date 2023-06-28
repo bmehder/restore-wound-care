@@ -1,1 +1,1 @@
-<i class="fa-sharp fa-solid fa-2x fa-circle-up" />
+<i class="fa-sharp fa-solid fa-3x fa-circle-up" />

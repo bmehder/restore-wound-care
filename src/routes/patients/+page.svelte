@@ -9,6 +9,7 @@
     name="description"
     content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."
   />
+  <link rel="preload" as="image" href="/patients.jpg">
 </svelte:head>
 
 <h1 class="title">Patients</h1>
@@ -49,7 +50,7 @@
 </section>
 
 <CTA>
-  <p class="h1">Contact Us</p>
+  <p class="h1 underline">Contact Us</p>
   <p>
     Discuss your situation, and set up an evaluation.
   </p>

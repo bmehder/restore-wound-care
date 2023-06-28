@@ -95,6 +95,13 @@ textarea {
   border-bottom: 1px solid;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--alt-one);
+  text-decoration-thickness: 2px;
+  text-underline-offset: var(--size);
+}
+
 /* Layout */
 section.full-bleed {
   margin-block: var(--double-size);

@@ -25,8 +25,6 @@
     padding: 0;
     background-color: var(--color, var(--light));
     color: var(--bg-color, var(--accent));
-    font-size: var(--size);
-    border: 0.25rem solid var(--light, white);
     border-radius: 50%;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.24);
     transition: scale 150ms ease;

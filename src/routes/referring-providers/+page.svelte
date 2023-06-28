@@ -9,6 +9,7 @@
     name="description"
     content="If you are a wound care provider with a patient who has not responded to the treatment you have provided so far, please consider us as a resource for healing."
   />
+  <link rel="preload" as="image" href="/providers.jpg">
 </svelte:head>
 
 <h1 class="title">Referring Providers</h1>
@@ -52,9 +53,9 @@
 </section>
 
 <CTA>
-  <p class="h1">Patient Referral Form</p>
+  <p class="h1 underline">Patient Referral Form</p>
   <p>
-    Call our Office at <a href="tel:7206789868" target="_blank">(720) 678-9868</a> with questions or for additional information.
+    Call our Office at (720) 678-9868 with questions or for additional information.
   </p>
   <a class="button" href="/referral-form_v3-restore-wound-care.docx">Download Form</a>
 </CTA>
