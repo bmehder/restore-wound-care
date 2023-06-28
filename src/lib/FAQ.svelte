@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     gap: var(--size);
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     color: var(--accent);
   }
