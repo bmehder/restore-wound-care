@@ -10,8 +10,8 @@
 {#if isReady}
   <button
     in:fade={{ duration: 0 }}
-    aria-expanded="true"
-    aria-controls="header-nav"
+    aria-expanded="false"
+    aria-controls="nav"
     aria-label="Open"
   >
     <i class="fa-sharp fa-solid fa-2x fa-bars" />

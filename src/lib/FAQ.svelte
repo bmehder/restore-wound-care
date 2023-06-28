@@ -13,17 +13,15 @@
 </script>
 
 <div class="flow faq">
-  <a
-    href
+  <button
     class="{classNames} question"
     on:click|preventDefault={handleClick}
-    on:keypress={handleClick}
   >
     <span>{question}</span>
     <span>
       <svelte:component this={isOpen ? closeIcon : openIcon} />
     </span>
-  </a>
+  </button>
   {#if isOpen}
     <div class="flow answer" aria-expanded={isOpen} transition:slide>{@html answer}</div>
   {/if}
@@ -31,10 +29,19 @@
 
 <style>
   .question {
+    all: inherit;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: var(--size);
-    font-weight: normal;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--accent);
+  }
+
+  .question:is(:hover, :focus) {
+    text-decoration: underline;
+    text-underline-offset: 4px;
   }
 
   .answer {
