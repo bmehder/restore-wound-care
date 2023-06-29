@@ -57,7 +57,7 @@
   <p class="balance">
     Call our office at (720) 678-9868 with questions or for additional information.
   </p>
-  <a class="button" href="/referral-form_v3-restore-wound-care.docx">Download Form <Download /></a>
+  <a class="button" href="/referral-form_v3-restore-wound-care.docx"><Download /> Download Form</a>
 </CTA>
 
 <section class="flow">

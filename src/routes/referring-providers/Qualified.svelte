@@ -14,7 +14,7 @@
     color: var(--accent);
     text-align: center;
   }
-  .graphic > * {
+  div {
     display: grid;
     place-content: center;
     padding-inline: var(--size);
