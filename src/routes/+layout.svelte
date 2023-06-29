@@ -17,7 +17,7 @@
     <HomeHero image="/hero.jpg" />
   {/if}
 
-  <main class="flow">
+  <main id="main-content" class="flow">
     <slot />
   </main>
 

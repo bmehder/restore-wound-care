@@ -6,7 +6,7 @@
 
   export let mobileThreshold = 768
 
-  let innerWidth = null
+  let innerWidth = mobileThreshold + 1
 </script>
 
 <svelte:window bind:innerWidth />

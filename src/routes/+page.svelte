@@ -73,7 +73,7 @@
       </p>
       <p>Call to schedule an on-site patient evaluation appointment.</p>
       <div>
-        <a href="tel:7206789868" class="button"><Phone /> Call Now</a>
+        <a href="/contact" class="button"><Phone /> Contact Us</a>
       </div>
     </div>
   </div>

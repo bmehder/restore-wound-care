@@ -23,6 +23,7 @@
     right: 2rem;
     bottom: 2rem;
     padding: 0;
+    line-height: 0;
     background-color: var(--color, var(--light));
     color: var(--bg-color, var(--accent));
     border-radius: 50%;

@@ -6,6 +6,7 @@
 </script>
 
 <header>
+  <a class="skip-nav-link" href="#main-content">skip navigation</a>
   <div class="inner">
     <div class="logo">
       <a href="/">{@html logo}</a>
@@ -34,6 +35,24 @@
 <style>
   header {
     background-color: var(--accent);
+    max-height: 6em;
+    overflow-y: hidden;
+  }
+
+  .skip-nav-link {
+    position: absolute;
+    left: var(--half-size);
+    background-color: black;
+    padding-block: var(--half-size);
+    padding-inline: var(--size);
+    text-decoration: underline;
+    text-underline-offset: calc(var(--half-size) / 2);
+    transform: translateY(-120%);
+    transition: transform 200ms ease-in;
+  }
+  
+  .skip-nav-link:focus {
+    transform: translateY(0);
   }
 
   .inner {
@@ -75,7 +94,7 @@
     text-underline-offset: var(--half-size);
     text-decoration-thickness: calc(var(--size) / 12);
   }
-
+  
   a:hover {
     text-decoration-color: var(--alt-one);
   }
@@ -83,5 +102,6 @@
   a[aria-current='true'] {
     text-decoration: underline;
     text-decoration-color: var(--light);
+    text-decoration-thickness: calc(var(--size) / 8);
   }
 </style>
