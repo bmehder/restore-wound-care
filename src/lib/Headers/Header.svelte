@@ -6,13 +6,14 @@
 
   export let mobileThreshold = 768
 
-  let innerWidth = mobileThreshold + 1
+  let innerWidth
+
 </script>
 
 <svelte:window bind:innerWidth />
 
 {#if innerWidth > mobileThreshold}
-  <DesktopHeader {logo}/>
+  <DesktopHeader {logo} {innerWidth} />
 {:else}
-  <MobileHeader {logo}/>
+  <MobileHeader {logo} />
 {/if}

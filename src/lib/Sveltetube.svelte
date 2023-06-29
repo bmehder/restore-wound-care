@@ -22,7 +22,7 @@
       scrolling="no"
       srcdoc="
       {bodyReset}
-        <a tabindex=0 href='https://www.youtube.com/embed/{id}?autoplay=1'>
+        <a href='https://www.youtube.com/embed/{id}?autoplay=1'>
           <img
             style='
               display: block;

@@ -35,8 +35,6 @@
 <style>
   header {
     background-color: var(--accent);
-    max-height: 6em;
-    overflow-y: hidden;
   }
 
   .skip-nav-link {
