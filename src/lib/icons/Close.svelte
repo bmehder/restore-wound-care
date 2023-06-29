@@ -7,7 +7,7 @@
     padding-inline: 0 !important;
   }
 
-  button:hover {
+  button:is(:hover, :focus) {
     color: unset;
   }
 
