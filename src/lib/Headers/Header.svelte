@@ -11,9 +11,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if !innerWidth}
-  <MobileHeader {logo} />
-{:else if innerWidth < mobileThreshold}
+{#if innerWidth < mobileThreshold}
   <MobileHeader {logo} />
 {:else}
   <DesktopHeader {logo} />
