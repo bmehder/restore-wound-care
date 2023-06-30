@@ -50,10 +50,10 @@
     text-decoration: underline;
     text-underline-offset: calc(var(--half-size) / 2);
     transform: translateY(-120%);
-    transition: transform 200ms ease-in;
   }
   
   .skip-nav-link:focus {
+    transition: transform 200ms ease-in;
     transform: translateY(0);
   }
 
