@@ -1,5 +1,4 @@
 <script>
-  import { fade } from 'svelte/transition';
   import { page } from '$app/stores'
   import menuItems from '$lib/Headers/menuItems'
 
@@ -7,7 +6,7 @@
 </script>
 
 <header>
-  <a in:fade={{delay:100}} class="skip-nav-link" href="#main-content">skip navigation</a>
+  <a class="skip-nav-link" href="#main-content">skip navigation</a>
   <div class="inner">
     <div class="logo">
       <a href="/">{@html logo}</a>
