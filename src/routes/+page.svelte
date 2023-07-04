@@ -20,7 +20,7 @@
     </div>
     <div class="flow">
       <p>
-        Welcome to Restore Wound Care - a truly unique health care practice. Restore Wound
+        Welcome to Restore Wound Care – a truly unique health care practice. Restore Wound
         Care has developed an insurance backed protocol for treating recalcitrant wounds
         that prove difficult to heal using conventional wound care methods.
       </p>
@@ -28,7 +28,7 @@
         Our treatment protocol incorporates a combination of therapies including our
         exclusively sourced amnio products that rapidly promote healing in wound areas.
       </p>
-      <p>Our approach can provide either in-clinic or on-location care options.</p>
+      <p>Our approach can provide either in–clinic or on–location care options.</p>
     </div>
   </div>
 </section>
@@ -38,7 +38,7 @@
   <p>
     Our treatment protocol is a minimally invasive procedure that incorporates the use of
     specialty allograft products to promote rapid healing in chronic wounds. Patients
-    typically receive weekly treatments for 10-week cycles. Most patients will see marked
+    typically receive weekly treatments for 10–week cycles. Most patients will see marked
     improvement in healing for their chronic wound within months, and ultimately, complete
     closure – even for wounds that have lasted for years.
   </p>
@@ -47,7 +47,7 @@
     <div class="half-flow">
       <h3>A Partnership.</h3>
       <p>
-        Restore Medical Group partners with physicians, nurse practitioners and home
+        Restore Wound Care partners with physicians, nurse practitioners and home
         health professionals to ensure collaborative approaches for optimal patient
         outcomes.
       </p>
@@ -55,7 +55,7 @@
     <div class="half-flow">
       <h3>A Solution.</h3>
       <p>
-        Restore Medical Group has access to a multitude of wound healing products to best
+        Restore Wound Care has access to a multitude of wound healing products to best
         provide a patient–specific solution for optimal healing.
       </p>
     </div>
@@ -82,7 +82,7 @@
         temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo
         ducimus pariatur veniam?
       </p>
-      <p>Call to schedule an on-site patient evaluation appointment.</p>
+      <p>Call to schedule an on–site patient evaluation appointment.</p>
       <div>
         <a href="/contact" class="button"><Phone /> Contact Us</a>
       </div>

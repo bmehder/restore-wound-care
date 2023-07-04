@@ -11,13 +11,25 @@
 <h1 class="title">Case Studies</h1>
 
 <section class="flow">
-  <h2>Lorem Ipsum</h2>
+  <h2>Leg Wound Series I</h2>
   <p>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil eveniet, provident id
-    neque consectetur perspiciatis deleniti repudiandae hic veniam voluptas, sint, autem
-    voluptatibus quasi obcaecati cupiditate inventore. Doloremque, placeat aliquid non
-    sapiente facilis eveniet consequatur. Ratione animi perspiciatis vitae dignissimos quo
-    voluptates in, quia nisi sed assumenda obcaecati aliquam itaque!
+    Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
+    THE CAUSE OF THE WOUNDS? After 5 years of treatment using traditional methods, WHAT
+    WAS THE STATE OF THE PATIENT BEFORE BEING TREATED BY RESTORE WOUND CARE? After just 21
+    days of WHAT KIND OF TREATMENT DID RESTORE WOUND CARE PROVIDE?, Restore Wound Care
+    helped this patient WHAT WAS THE RESULT?.
+  </p>
+  <p>
+    Are the last two pictures in this section the same patient? If so, do we need to
+    change this section subheading?
+  </p>
+  <p>
+    <em
+      >I am trying to solve for two problems: 1.) I need some text here for Google to use
+      as a meta description in Google Search Results for this page, and 2.) Without some
+      explanation, we are leaving it up to the site visitors to figure out what this page
+      is all about.</em
+    >
   </p>
   <ul class="auto-grid top">
     {#each top as item}
@@ -27,13 +39,11 @@
 </section>
 
 <section class="flow" style="margin-block-start: var(--double-size);">
-  <h2>Leg Wound Series</h2>
+  <h2>Leg Wound Series II</h2>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit neque quos
-    facere quas, soluta debitis quidem nesciunt praesentium quod aliquam laborum suscipit
-    quae expedita quia magnam sapiente nemo, sunt quibusdam officia. Facere animi, et
-    quisquam quae quo enim deserunt maxime perferendis mollitia, pariatur non, dolorum
-    necessitatibus incidunt sed error!
+    You can follow the same template as the description for the first section. What was
+    the problem and what caused it? What did they try before using RWC? What did RWC do to
+    fix the problem? What was the result in the end?
   </p>
   <ul class="auto-grid">
     {#each legWounds as item}
@@ -45,7 +55,7 @@
 <style>
   @media (min-width: 48em) {
     .top {
-      max-width: 41em;    
+      max-width: 41em;
     }
   }
 </style>
