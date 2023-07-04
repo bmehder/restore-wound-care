@@ -54,6 +54,10 @@ ul {
   margin-block-start: var(--flow);
 }
 
+.half-flow > * + * {
+  margin-block-start: var(--half-size);
+}
+
 .inner {
   width: var(--width);
   max-width: var(--max-width);

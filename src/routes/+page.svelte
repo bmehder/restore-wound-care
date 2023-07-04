@@ -1,10 +1,6 @@
 <script>
   import Sveltetube from '$lib/Sveltetube.svelte'
   import Phone from '$lib/icons/Phone.svelte'
-  import CaretDown from '$lib/icons/CaretDown.svelte'
-  import CaretRight from '$lib/icons/CaretRight.svelte'
-  import questionsAndAnswers from './faqs'
-  import Faq from '$lib/FAQ.svelte'
 </script>
 
 <svelte:head>
@@ -47,7 +43,7 @@
     closure – even for wounds that have lasted for years.
   </p>
 
-  <div class="auto-grid" style="padding-block-start: var(--half-size);">
+  <div class="auto-grid boxes" style="padding-block-start: var(--half-size);">
     <div class="half-flow">
       <h3>A Partnership.</h3>
       <p>
@@ -66,7 +62,8 @@
     <div class="half-flow">
       <h3>An Answer.</h3>
       <p>
-        We offer our partners an answer to current excess costs and invasive methods. We offer our patients an answer to current limited mobility and function.
+        We offer our partners an answer to current excess costs and invasive methods. We
+        offer our patients an answer to current limited mobility and function.
       </p>
     </div>
   </div>
@@ -93,30 +90,31 @@
   </div>
 </section>
 
-<section class="flow">
-  <h2>Lorem Ipsum.</h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
-    mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
-    repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
-    deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
-    error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
-    mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
-    repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
-    deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
-    error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
-  </p>
-</section>
+<!-- <section class="flow">
+    <h2>Lorem Ipsum.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
+      mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
+      repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
+      deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
+      error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
+      mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
+      repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
+      deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
+      error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
+    </p>
+  </section> -->
 
 <style>
-  .half-flow {
+  section:last-child {
+    margin-block-end: 0;
+  }
+
+  .boxes div {
     padding: var(--double-size);
     background-color: var(--light);
-  }
-  .half-flow > * + * {
-    margin-block-start: var(--half-size);
   }
 </style>
