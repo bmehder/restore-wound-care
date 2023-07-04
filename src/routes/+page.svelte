@@ -66,7 +66,7 @@
     <div class="half-flow">
       <h3>An Answer.</h3>
       <p>
-        We offer our partners an answer for current excess costs and invasive methods. We offer our patients an answer for current limited mobility and function.
+        We offer our partners an answer to current excess costs and invasive methods. We offer our patients an answer to current limited mobility and function.
       </p>
     </div>
   </div>
