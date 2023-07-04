@@ -38,23 +38,37 @@
 </section>
 
 <section class="flow">
-  <h2>Lorem Ipsum</h2>
+  <h2>Our Treatment Protocol</h2>
+  <p>
+    Our treatment protocol is a minimally invasive procedure that incorporates the use of
+    specialty allograft products to promote rapid healing in chronic wounds. Patients
+    typically receive weekly treatments for 10-week cycles. Most patients will see marked
+    improvement in healing for their chronic wound within months, and ultimately, complete
+    closure – even for wounds that have lasted for years.
+  </p>
 
-  <div class="columns" style="--gap: 1.5rem;">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis
-      molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias
-      officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem!
-      At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus,
-      alias repellat tempora dicta cupiditate.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis
-      molestiae sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias
-      officiis corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem!
-      At, esse. Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus,
-      alias repellat tempora dicta cupiditate.
-    </p>
+  <div class="auto-grid" style="padding-block-start: var(--half-size);">
+    <div class="half-flow">
+      <h3>A Partnership.</h3>
+      <p>
+        Restore Medical Group partners with physicians, nurse practitioners and home
+        health professionals to ensure collaborative approaches for optimal patient
+        outcomes.
+      </p>
+    </div>
+    <div class="half-flow">
+      <h3>A Solution.</h3>
+      <p>
+        Restore Medical Group has access to a multitude of wound healing products to best
+        provide a patient–specific solution for optimal healing.
+      </p>
+    </div>
+    <div class="half-flow">
+      <h3>An Answer.</h3>
+      <p>
+        We offer an answer for our partners to address current excess costs and invasive methods. We offer an answer to our patients with current limited mobility and function.
+      </p>
+    </div>
   </div>
 </section>
 
@@ -79,37 +93,30 @@
   </div>
 </section>
 
-
-<!-- <section class="flow">
-  <h2>Lorem Ipsum</h2>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
-    sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis
-    corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse.
-    Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
-    tempora dicta cupiditate.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
-    sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis
-    corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse.
-    Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
-    tempora dicta cupiditate.
-  </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt reiciendis molestiae
-    sed ab architecto deserunt quam ipsam recusandae saepe tempore eum alias officiis
-    corporis, vel cupiditate fugiat iure ea. Facilis, quo nisi. Fugit, quidem! At, esse.
-    Obcaecati omnis ea molestias sunt officiis ducimus eius necessitatibus, alias repellat
-    tempora dicta cupiditate.
-  </p>
-</section> -->
-
 <section class="flow">
-  <h2>Frequently Asked Questions</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos error eveniet ratione consequuntur nemo magnam voluptate culpa alias! Ipsum, numquam dignissimos nemo autem aut veniam, illum cum cupiditate illo officiis magni. Laborum?</p>
-  {#each questionsAndAnswers as { question, answer }}
-    <Faq {question} {answer} classNames="h3" openIcon={CaretRight} closeIcon={CaretDown} />
-  {/each}
+  <h2>Lorem Ipsum.</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
+    mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
+    repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
+    deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
+    error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
+    mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
+    repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
+    deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
+    error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
+  </p>
 </section>
 
+<style>
+  .half-flow {
+    padding: var(--double-size);
+    background-color: var(--light);
+  }
+  .half-flow > * + * {
+    margin-block-start: var(--half-size);
+  }
+</style>
