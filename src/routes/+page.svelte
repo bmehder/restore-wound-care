@@ -77,10 +77,7 @@
     <div class="flow content">
       <h2>We travel to you!</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores architecto
-        repellendus. Doloribus consectetur libero ut repellendus, aspernatur sint non
-        temporibus maxime expedita voluptatibus. Voluptatem nostrum aliquid neque, quo
-        ducimus pariatur veniam?
+        We understand that mobility can sometimes be a challenge, especially when managing chronic wounds. That's why we're bringing our cutting-edge, insurance-backed treatment protocol right to your doorstep. It's the same high-quality care in the comfort and convenience of your own home environment. Whether you're a senior, a busy professional, or anyone in need of effective wound care, our mobile clinic is your solution.
       </p>
       <p>Call to schedule an on–site patient evaluation appointment.</p>
       <div>
