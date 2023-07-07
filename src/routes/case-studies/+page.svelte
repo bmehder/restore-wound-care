@@ -1,6 +1,15 @@
 <script>
+  import { browser } from '$app/environment'
   import { top, legWounds } from './data'
   import Wound from './Wound.svelte'
+
+  let isUnblurred = false
+
+  setTimeout(() => {
+    isUnblurred =
+      browser &&
+      confirm('Warning: Graphic Content. Please press okay to un-blur the images.')
+  }, 500)
 </script>
 
 <svelte:head>
@@ -33,7 +42,7 @@
   </p>
   <ul class="auto-grid top">
     {#each top as item}
-      <Wound {item} />
+      <Wound {item} {isUnblurred} />
     {/each}
   </ul>
 </section>
@@ -47,7 +56,7 @@
   </p>
   <ul class="auto-grid">
     {#each legWounds as item}
-      <Wound {item} />
+      <Wound {item} {isUnblurred} />
     {/each}
   </ul>
 </section>

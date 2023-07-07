@@ -15,7 +15,7 @@
     console.log('challenge success.')
     isBotpoisoning = false
   }
-  
+
   const handleBotPoisonError = () => console.log('challenge error.')
 </script>
 
@@ -54,9 +54,20 @@
       <input type="phone" id="phone" name="phone" required={isPhoneRequired} />
     </div>
   </div>
+  <div class="request-evaluation">
+    <label for="request-evaluation">
+      I would you like to request an evaluation?
+    </label>
+    <input
+      type="checkbox"
+      name="request-evaluation"
+      id="request-evaluation"
+      value="evaluation"
+    />
+  </div>
   <div>
     <label for="message">Message <span>*</span></label>
-    <textarea id="message" name="message" cols="30" rows="10" required />
+    <textarea id="message" name="Message" cols="30" rows="10" required />
   </div>
   <div style="display: contents;">
     <input
@@ -85,6 +96,17 @@
 
   span {
     color: red;
+  }
+
+  .request-evaluation {
+    display: flex;
+    align-items: center;
+    gap: var(--half-size);
+  }
+
+  .request-evaluation input {
+    width: var(--size);
+    height: var(--size);
   }
 
   button {
