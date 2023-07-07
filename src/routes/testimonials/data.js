@@ -1,20 +1,17 @@
 export default [
   {
-    heading: 'Lorem ipsum dolor',
+    heading: "My emotions are higher, I'm feeling better...",
     src: 'https://player.vimeo.com/video/540318619?h=59fb68c893',
-    content: `Richard has wounds on both legs. In this video, he talks about his experience at
-      Restore Wound Care, and we share some before and after pictures.`,
+    content: `Richard shares his transformative journey with Restore Wound Care. Plagued by persistent wounds on both legs, he uncovered a renewed sense of vitality through our innovative treatment. Witness the remarkable transition with before-and-after visuals, encapsulating our commitment to revitalizing health and restoring hope.`,
   },
   {
-    heading: 'Lorem ipsum dolor',
+    heading: 'They made a lot of promises they actually kept...',
     src: 'https://player.vimeo.com/video/584160193?h=67a9d56dfe',
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur
-      assumenda nesciunt officia iusto delectus distinctio voluptas? Tempora, rerum maxime.`,
+    content: `A resilient patient who battled a persistent wound for over two years reclaims her zest for life with Restore Wound Care. Starting from a mere scab, her condition dictated her activities until she found us.`,
   },
   {
-    heading: 'Lorem ipsum dolor',
+    heading: "They come to my home - there's nothing better than that...",
     src: 'https://player.vimeo.com/video/622656173?h=f802c0f0f3',
-    content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consectetur
-      assumenda nesciunt officia iusto delectus distinctio voluptas? Tempora, rerum maxime.`,
+    content: `Exhausted by years of unsuccessful doctor visits, this patient found not just convenience, but also empowerment with our home service. Hear her gratitude as she shares how our approach revived her hopes and literally brought healing to her doorstep, rekindling a fresh lease on life.`,
   },
 ]
