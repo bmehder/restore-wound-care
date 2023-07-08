@@ -11,9 +11,6 @@
 <h1 class="title">Case Studies</h1>
 
 <section class="flow">
-  <p style="color: red;">
-    Keziah, I keep changing my mind, but I don't want to keep blowing up your email. 😀
-  </p>
   <p class="blur-notice">Click on an image to show / blur.</p>
 
   <h2>Wound Series I</h2>
