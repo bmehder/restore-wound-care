@@ -3,19 +3,19 @@
 
   const { heading, src, description } = item
 
-  let isUnblurred = false
+  let isBlurred = true
 
-  const handleClick = () => (isUnblurred = !isUnblurred)
+  const handleClick = () => (isBlurred = !isBlurred)
 </script>
 
 <li class="flow">
   <h3>{heading}</h3>
   <img
-    on:click={handleClick}
-    on:keydown={handleClick}
-    class:isUnblurred
     class="square"
+    class:isBlurred
     {src}
+    on:click={handleClick}
+    on:keydown
     alt={heading}
   />
   <p>{description}</p>
@@ -23,11 +23,11 @@
 
 <style>
   img {
-    filter: blur(var(--size));
+    filter: blur(0);
     transition: filter 600ms ease;
     cursor: pointer;
   }
-  .isUnblurred {
-    filter: blur(0);
+  .isBlurred {
+    filter: blur(var(--size));
   }
 </style>

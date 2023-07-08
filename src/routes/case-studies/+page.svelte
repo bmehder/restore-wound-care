@@ -14,6 +14,8 @@
   <p style="color: red;">
     Keziah, I keep changing my mind, but I don't want to keep blowing up your email. 😀
   </p>
+  <p class="blur-notice">Click on an image to show / blur.</p>
+
   <h2>Wound Series I</h2>
   <p>
     Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
@@ -34,7 +36,6 @@
       is all about.</em
     >
   </p>
-  <p style="color: red;font-weight: bold;">Click on an image to show / blur.</p>
   <ul class="auto-grid top">
     {#each top as item}
       <Wound {item} />
@@ -49,7 +50,6 @@
     the problem and what caused it? What did they try before using RWC? What did RWC do to
     fix the problem? What was the result in the end?
   </p>
-  <p style="color: red;font-weight: bold;">Click on an image to show / blur.</p>
   <ul class="auto-grid">
     {#each legWounds as item}
       <Wound {item} />
@@ -58,6 +58,10 @@
 </section>
 
 <style>
+  .blur-notice {
+    color: red;
+    font-weight: bold;
+  }
   @media (min-width: 48em) {
     .top {
       max-width: 41em;
