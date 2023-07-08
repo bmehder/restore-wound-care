@@ -1,10 +1,6 @@
 <script>
   import { top, legWounds } from './data'
   import Wound from './Wound.svelte'
-
-  let isUnblurred = false
-
-  const handleClick = () => isUnblurred = !isUnblurred
 </script>
 
 <svelte:head>
@@ -12,13 +8,13 @@
   <!-- <meta name="description" content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."> -->
 </svelte:head>
 
-<h1 class="title">
-  <span>Case Studies</span>
-  <button on:click={handleClick}>{ isUnblurred ? 'Blur Images' : 'Show Images'}</button>
-</h1>
+<h1 class="title">Case Studies</h1>
 
 <section class="flow">
-  <h2>Leg Wound Series I</h2>
+  <p style="color: red;">
+    Keziah, I keep changing my mind, but I don't want to keep blowing up your email. 😀
+  </p>
+  <h2>Wound Series I</h2>
   <p>
     Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
     THE CAUSE OF THE WOUNDS? After 5 years of treatment using traditional methods, WHAT
@@ -38,37 +34,30 @@
       is all about.</em
     >
   </p>
+  <p style="color: red;font-weight: bold;">Click on an image to show / blur.</p>
   <ul class="auto-grid top">
     {#each top as item}
-      <Wound {item} {isUnblurred} />
+      <Wound {item} />
     {/each}
   </ul>
 </section>
 
 <section class="flow" style="margin-block-start: var(--double-size);">
-  <h2>Leg Wound Series II</h2>
+  <h2>Wound Series II</h2>
   <p>
     You can follow the same template as the description for the first section. What was
     the problem and what caused it? What did they try before using RWC? What did RWC do to
     fix the problem? What was the result in the end?
   </p>
+  <p style="color: red;font-weight: bold;">Click on an image to show / blur.</p>
   <ul class="auto-grid">
     {#each legWounds as item}
-      <Wound {item} {isUnblurred} />
+      <Wound {item} />
     {/each}
   </ul>
 </section>
 
 <style>
-  .title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  button {
-    font-size: initial;
-  }
   @media (min-width: 48em) {
     .top {
       max-width: 41em;
