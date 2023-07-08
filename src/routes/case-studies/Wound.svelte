@@ -1,7 +1,7 @@
 <script>
   export let item
 
-  const { heading, src, description } = item
+  const { heading, src, alt, description } = item
 
   let isBlurred = true
 
@@ -14,9 +14,9 @@
     class="square"
     class:isBlurred
     {src}
+    {alt}
     on:click={handleClick}
     on:keydown
-    alt={heading}
   />
   <p>{description}</p>
 </li>

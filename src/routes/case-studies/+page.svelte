@@ -1,5 +1,6 @@
 <script>
-  import { top, legWounds } from './data'
+  import Notice from '../../lib/Notice.svelte'
+  import { series1, series2 } from './data'
   import Wound from './Wound.svelte'
 </script>
 
@@ -11,8 +12,6 @@
 <h1 class="title">Case Studies</h1>
 
 <section class="flow">
-  <p class="blur-notice">Click on an image to show / blur.</p>
-
   <h2>Wound Series I</h2>
   <p>
     Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
@@ -33,8 +32,9 @@
       is all about.</em
     >
   </p>
-  <ul class="auto-grid top">
-    {#each top as item}
+  <Notice>Graphic Wound Images. Click on an image to show or blur it.</Notice>
+  <ul class="auto-grid series1">
+    {#each series1 as item}
       <Wound {item} />
     {/each}
   </ul>
@@ -48,19 +48,15 @@
     fix the problem? What was the result in the end?
   </p>
   <ul class="auto-grid">
-    {#each legWounds as item}
+    {#each series2 as item}
       <Wound {item} />
     {/each}
   </ul>
 </section>
 
 <style>
-  .blur-notice {
-    color: red;
-    font-weight: bold;
-  }
   @media (min-width: 48em) {
-    .top {
+    .series1 {
       max-width: 41em;
     }
   }
