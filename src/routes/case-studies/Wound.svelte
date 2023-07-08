@@ -14,10 +14,10 @@
 
 <style>
   img {
-    filter: blur(var(--half-size));
+    filter: blur(var(--size));
+    transition: filter 1000ms ease;
   }
   .isUnblurred {
     filter: blur(0);
-    transition: filter 1000ms ease;
   }
 </style>

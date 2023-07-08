@@ -10,7 +10,7 @@ export default [
     content: `A resilient patient who battled a persistent wound for over two years reclaims her zest for life with Restore Wound Care. Starting from a mere scab, her condition dictated her activities until she found us.`,
   },
   {
-    heading: '"They come to my home - there\'s nothing better than that."',
+    heading: '"They come to my home – there\'s nothing better than that."',
     src: 'https://player.vimeo.com/video/622656173?h=f802c0f0f3',
     content: `Exhausted by years of unsuccessful doctor visits, this patient found not just convenience, but also empowerment with our home service. Hear her gratitude as she shares how our approach revived her hopes and literally brought healing to her doorstep, rekindling a fresh lease on life.`,
   },

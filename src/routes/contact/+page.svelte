@@ -1,7 +1,5 @@
 <script>
   import { dev } from '$app/environment'
-  import Facebook from '$lib/icons/Facebook.svelte'
-  import LinkedIn from '$lib/icons/LinkedIn.svelte'
   import FormSpark from './FormSpark.svelte'
 
   const FORMSPARK_URL = 'https://submit-form.com/sAOnImzN'
@@ -45,12 +43,6 @@
       <a href="tel:7206789868">(720) 678-9868</a> (Phone)<br />
       <a href="tel:7206789860">(720) 678-9860</a> (Fax)
     </p>
-    <a href="https://www.facebook.com/profile.php?id=100090581164027" target="_blank">
-      <Facebook />
-    </a>
-    <a href="https://www.linkedin.com/company/restore-wound-care-llc/" target="_blank">
-      <LinkedIn />
-    </a>
   </div>
 </div>
 

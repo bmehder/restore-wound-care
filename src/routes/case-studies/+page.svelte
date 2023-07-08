@@ -1,15 +1,10 @@
 <script>
-  import { browser } from '$app/environment'
   import { top, legWounds } from './data'
   import Wound from './Wound.svelte'
 
   let isUnblurred = false
 
-  setTimeout(() => {
-    isUnblurred =
-      browser &&
-      confirm('Warning: Graphic Content. Please press okay to un-blur the images.')
-  }, 500)
+  const handleClick = () => isUnblurred = !isUnblurred
 </script>
 
 <svelte:head>
@@ -17,7 +12,10 @@
   <!-- <meta name="description" content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."> -->
 </svelte:head>
 
-<h1 class="title">Case Studies</h1>
+<h1 class="title">
+  <span>Case Studies</span>
+  <button on:click={handleClick}>{ isUnblurred ? 'Blur Images' : 'Show Images'}</button>
+</h1>
 
 <section class="flow">
   <h2>Leg Wound Series I</h2>
@@ -62,6 +60,15 @@
 </section>
 
 <style>
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  button {
+    font-size: initial;
+  }
   @media (min-width: 48em) {
     .top {
       max-width: 41em;
