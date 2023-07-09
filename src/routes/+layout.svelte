@@ -37,7 +37,6 @@
     width: var(--width);
     max-width: var(--max-width);
     padding-block-start: var(--double-size);
-    padding-block-end: var(--triple-size);
     margin-inline: auto;
     line-height: 1.5;
   }

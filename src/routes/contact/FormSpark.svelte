@@ -56,7 +56,7 @@
   </div>
   <div class="request-evaluation">
     <label for="request-evaluation">
-      I would like to request an evaluation?
+      I would like to request an evaluation.
     </label>
     <input
       type="checkbox"

@@ -1,6 +1,6 @@
 <script>
-  import Notice from '../../lib/Notice.svelte'
   import { series1, series2 } from './data'
+  import Notice from '$lib/Notice.svelte'
   import Wound from './Wound.svelte'
 </script>
 

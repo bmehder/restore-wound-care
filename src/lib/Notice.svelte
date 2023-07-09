@@ -2,13 +2,13 @@
   import Information from '$lib/icons/Information.svelte'
 </script>
 
-<p class="blur-notice">
+<p>
   <Information />
   <span><slot /></span>
 </p>
 
 <style>
-  .blur-notice {
+  p {
     display: inline-flex;
     gap: var(--half-size);
     padding: var(--size);

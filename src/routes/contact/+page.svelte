@@ -18,7 +18,7 @@
 
 <h1 class="title">Contact Us</h1>
 
-<div class="flex">
+<section class="flex">
   <div class="flow form">
     <h2>Send Us A Message</h2>
     <FormSpark
@@ -44,7 +44,7 @@
       <a href="tel:7206789860">(720) 678-9860</a> (Fax)
     </p>
   </div>
-</div>
+</section>
 
 <style>
   @media (min-width: 48em) {

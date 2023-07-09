@@ -49,6 +49,10 @@ ul {
   list-style: none;
 }
 
+section:last-child {
+  padding-block-end: var(--triple-size);
+}
+
 /* Utilities */
 .flow > * + * {
   margin-block-start: var(--flow);

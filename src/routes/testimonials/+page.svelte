@@ -10,11 +10,13 @@
 
 <h1 class="title">Testimonials</h1>
 
-<ul class="auto-grid">
-  {#each videos as item}
-    <Vimeo {item} />
-  {/each}
-</ul>
+<section>
+  <ul class="auto-grid">
+    {#each videos as item}
+      <Vimeo {item} />
+    {/each}
+  </ul>
+</section>
 
 <style>
   @media (min-width: 48em) {
