@@ -62,12 +62,14 @@ a:hover {
 
 button,
 .button {
-  display: inline-block;
+  display: inline-flex;
+  gap: var(--half-size);
+  justify-content: center;
+  align-items: center;
   padding-block: calc(var(--size) / 1.5);
   padding-inline: calc(var(--double-size));
   background-color: var(--accent);
   color: var(--light);
-  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;

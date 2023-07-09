@@ -1,6 +1,6 @@
 <script>
-  import Facebook from '../icons/Facebook.svelte'
-  import LinkedIn from '../icons/LinkedIn.svelte'
+  import Facebook from '$lib/icons/Facebook.svelte'
+  import LinkedIn from '$lib/icons/LinkedIn.svelte'
 
   const currentYear = new Date().getFullYear()
 </script>
@@ -25,7 +25,7 @@
 </footer>
 
 <style>
-  footer > div {
+  div {
     padding-block-start: var(--double-size);
   }
 </style>
