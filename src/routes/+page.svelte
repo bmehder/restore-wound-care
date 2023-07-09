@@ -11,7 +11,7 @@
   />
 </svelte:head>
 
-<div class="home">
+<div class="home flow">
   <section class="flow">
     <h1>Restore Wound Care</h1>
   
