@@ -13,7 +13,7 @@
 
 <section class="flow">
   <h2>Wound Series I</h2>
-  <p>
+  <!-- <p>
     Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
     THE CAUSE OF THE WOUNDS? After 5 years of treatment using traditional methods, WHAT
     WAS THE STATE OF THE PATIENT BEFORE BEING TREATED BY RESTORE WOUND CARE? After just 21
@@ -31,7 +31,7 @@
       explanation, we are leaving it up to the site visitors to figure out what this page
       is all about.</em
     >
-  </p>
+  </p> -->
   <Notice>Graphic Wound Images. Click on an image to show or blur it.</Notice>
   <ul class="auto-grid series1">
     {#each series1 as item}
