@@ -42,11 +42,11 @@
 
 <section class="flow" style="margin-block-start: var(--double-size);">
   <h2>Wound Series II</h2>
-  <p>
+  <!-- <p>
     You can follow the same template as the description for the first section. What was
     the problem and what caused it? What did they try before using RWC? What did RWC do to
     fix the problem? What was the result in the end?
-  </p>
+  </p> -->
   <ul class="auto-grid">
     {#each series2 as item}
       <Wound {item} />
