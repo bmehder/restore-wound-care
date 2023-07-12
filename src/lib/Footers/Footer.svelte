@@ -14,10 +14,10 @@
         Copyright © 2021-{currentYear} Restore Wound Care, LLC. All rights reserved.
       </p>
       <p>
-        <a href="https://www.facebook.com/profile.php?id=100090581164027" target="_blank">
+        <a href="https://www.facebook.com/profile.php?id=100090581164027" target="_blank" aria-label="Facebook">
           <Facebook />
         </a>
-        <a href="https://www.linkedin.com/company/restore-wound-care-llc/" target="_blank">
+        <a href="https://www.linkedin.com/company/restore-wound-care-llc/" target="_blank" aria-label="LinkedIn">
           <LinkedIn />
         </a>
       </p>
