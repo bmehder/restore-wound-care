@@ -13,25 +13,6 @@
 
 <section class="flow">
   <h2>Wound Series I</h2>
-  <!-- <p>
-    Patient M was suffering from a WHAT KIND OF WOUNDS? in both legs caused by WHAT WAS
-    THE CAUSE OF THE WOUNDS? After 5 years of treatment using traditional methods, WHAT
-    WAS THE STATE OF THE PATIENT BEFORE BEING TREATED BY RESTORE WOUND CARE? After just 21
-    days of WHAT KIND OF TREATMENT DID RESTORE WOUND CARE PROVIDE?, Restore Wound Care
-    helped this patient WHAT WAS THE RESULT?.
-  </p>
-  <p>
-    Are the last two pictures in this section the same patient? If so, do we need to
-    change this section subheading?
-  </p>
-  <p>
-    <em
-      >I am trying to solve for two problems: 1.) I need some text here for Google to use
-      as a meta description in Google Search Results for this page, and 2.) Without some
-      explanation, we are leaving it up to the site visitors to figure out what this page
-      is all about.</em
-    >
-  </p> -->
   <Notice>Graphic Wound Images. Click on an image to show or blur it.</Notice>
   <ul class="auto-grid series1">
     {#each series1 as item}
@@ -42,11 +23,6 @@
 
 <section class="flow" style="margin-block-start: var(--double-size);">
   <h2>Wound Series II</h2>
-  <!-- <p>
-    You can follow the same template as the description for the first section. What was
-    the problem and what caused it? What did they try before using RWC? What did RWC do to
-    fix the problem? What was the result in the end?
-  </p> -->
   <ul class="auto-grid">
     {#each series2 as item}
       <Wound {item} />

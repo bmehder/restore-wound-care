@@ -55,15 +55,15 @@
     </div>
   </div>
   <div class="request-evaluation">
+    <input
+    type="checkbox"
+    name="request-evaluation"
+    id="request-evaluation"
+    value="evaluation"
+    />
     <label for="request-evaluation">
       I would like to request an evaluation.
     </label>
-    <input
-      type="checkbox"
-      name="request-evaluation"
-      id="request-evaluation"
-      value="evaluation"
-    />
   </div>
   <div>
     <label for="message">Message <span>*</span></label>

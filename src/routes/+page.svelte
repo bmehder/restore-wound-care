@@ -89,24 +89,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <section class="flow">
-      <h2>Lorem Ipsum.</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
-        mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
-        repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
-        deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
-        error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum animi tenetur at
-        mollitia nisi laboriosam natus molestias quisquam nobis laborum soluta accusamus, aut
-        repellendus minima? Necessitatibus voluptatibus dicta nostrum eligendi. Voluptate
-        deleniti corporis incidunt architecto, quibusdam provident magnam consectetur, optio
-        error perferendis eveniet laudantium consequatur, quod iusto eligendi quas?
-      </p>
-    </section> -->
 </div>
 
 <style>
