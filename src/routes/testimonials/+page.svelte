@@ -5,7 +5,6 @@
 
 <svelte:head>
   <title>Testimonials - Restore Wound Care</title>
-  <meta name="robots" content="noindex" />
 </svelte:head>
 
 <h1 class="title">Testimonials</h1>
