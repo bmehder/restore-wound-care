@@ -5,7 +5,11 @@
 </script>
 
 <li>
-  <img class="square" {src} alt={name} />
+  {#if src}
+    <img class="square" {src} alt={name} />
+  {:else}
+    &nbsp;
+  {/if}
   <div class="flow">
     <h3 class="balance">{name}</h3>
     <p>
