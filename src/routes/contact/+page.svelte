@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>Contact Us - Restore Wound Care</title>
+  <title>Contact Us - Restore Wound Care - Colorado</title>
   <meta
     name="description"
     content="Restore Wound Care, LLC – Send Us A Message – Location – 9195 Grant Street, Suite 305, Thornton, CO 80229 – (720) 678-9868 (Phone) – (720) 678-9860 (Fax)"

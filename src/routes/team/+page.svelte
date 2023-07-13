@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Meet Our Team - Restore Wound Care</title>
+  <title>Meet Our Team - Restore Wound Care - Colorado</title>
   <!-- <meta name="description" content="Restore Wound Care has developed an insurance backed protocol for treating recalcitrant wounds proving difficult to heal using conventional wound care methods."> -->
 </svelte:head>
 

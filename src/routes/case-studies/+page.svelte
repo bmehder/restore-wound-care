@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Case Studies - Restore Wound Care</title>
+  <title>Case Studies - Restore Wound Care - Colorado</title>
   <!-- <meta name="description" content="Restore Wound Care specializes in treating chronic wounds. There are many treatment options for wounds, and Restore Medical Group will work with you to provide the best option for care."> -->
 </svelte:head>
 

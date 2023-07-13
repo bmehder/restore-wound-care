@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Testimonials - Restore Wound Care</title>
+  <title>Testimonials - Restore Wound Care - Colorado</title>
 </svelte:head>
 
 <h1 class="title">Testimonials</h1>
