@@ -35,29 +35,29 @@
   <div class="columns">
     <div>
       <label for="first-name">First Name <span>*</span></label>
-      <input type="text" id="first-name" name="first-name" required />
+      <input type="text" id="first-name" name="FirstName" required />
     </div>
     <div>
       <label for="last-name">Last Name <span>*</span></label>
-      <input type="text" id="last-name" name="last-name" required />
+      <input type="text" id="last-name" name="LastName" required />
     </div>
   </div>
   <div class="columns">
     <div>
       <label for="email">Email <span>*</span></label>
-      <input type="email" id="email" name="email" required />
+      <input type="email" id="email" name="Email" required />
     </div>
     <div>
       <label for="phone"
         >Phone {#if isPhoneRequired}<span>*</span>{/if}</label
       >
-      <input type="phone" id="phone" name="phone" required={isPhoneRequired} />
+      <input type="phone" id="phone" name="Phone" required={isPhoneRequired} />
     </div>
   </div>
   <div class="request-evaluation">
     <input
       type="checkbox"
-      name="request-evaluation"
+      name="Evaluation"
       id="request-evaluation"
       value="evaluation"
     />
