@@ -24,7 +24,7 @@
   }
 
   div {
-    padding: var(--double-size);
+    padding: var(--size);
     padding-block-start: var(--size);
   }
 
