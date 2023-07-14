@@ -45,7 +45,7 @@
   <div class="columns">
     <div>
       <label for="email">Email <span>*</span></label>
-      <input type="email" id="email" name="Email" required />
+      <input type="email" id="email" name="email" required />
     </div>
     <div>
       <label for="phone"
