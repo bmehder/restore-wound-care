@@ -50,12 +50,6 @@
   </p>
 </section>
 
-<CTA>
-  <p class="h1 underline">Contact Us</p>
-  <p>Discuss your situation, and set up an evaluation.</p>
-  <a class="button" href="/contact"><Phone /> Contact us</a>
-</CTA>
-
 <section class="flow">
   <h2>How It Works</h2>
 
@@ -116,3 +110,9 @@
     will help others.
   </p>
 </section>
+
+<CTA>
+  <p class="h1 underline">Contact Us</p>
+  <p>Discuss your situation, and set up an evaluation.</p>
+  <a class="button" href="/contact"><Phone /> Contact us</a>
+</CTA>

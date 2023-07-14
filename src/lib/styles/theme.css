@@ -108,7 +108,7 @@ textarea {
 
 /* Layout */
 section.full-bleed {
-  margin-block: var(--double-size);
+  margin-block-start: var(--double-size);
   padding-block-start: var(--double-size);
   padding-block-end: calc(var(--double-size) + 0.5rem);
 }

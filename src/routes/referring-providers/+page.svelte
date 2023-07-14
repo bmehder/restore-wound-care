@@ -52,14 +52,6 @@
   </p>
 </section>
 
-<CTA>
-  <p class="h1 underline">Patient Referral Form</p>
-  <p class="balance">
-    Call our office at (720) 678-9868 with questions or for additional information.
-  </p>
-  <a class="button" href="/referral-form_v3-restore-wound-care.docx"><Download /> Download Form</a>
-</CTA>
-
 <section class="flow">
   <h2>Identifying Patients</h2>
 
@@ -99,3 +91,11 @@
     </div>
   </div>
 </section>
+
+<CTA>
+  <p class="h1 underline">Patient Referral Form</p>
+  <p class="balance">
+    Call our office at (720) 678-9868 with questions or for additional information.
+  </p>
+  <a class="button" href="/referral-form_v3-restore-wound-care.docx"><Download /> Download Form</a>
+</CTA>
