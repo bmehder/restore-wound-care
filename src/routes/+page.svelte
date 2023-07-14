@@ -44,22 +44,22 @@
       complete closure – even for wounds that have lasted for years.
     </p>
 
-    <div class="auto-grid boxes" style="padding-block-start: var(--half-size);">
-      <div class="half-flow">
+    <div class="auto-grid" style="padding-block-start: var(--half-size);">
+      <div class="half-flow box">
         <h3>A Partnership.</h3>
         <p>
           Restore Wound Care partners with physicians, nurse practitioners and home health
           professionals to ensure collaborative approaches for optimal patient outcomes.
         </p>
       </div>
-      <div class="half-flow">
+      <div class="half-flow box">
         <h3>A Solution.</h3>
         <p>
           Restore Wound Care has access to a multitude of wound healing products to best
           provide a patient–specific solution for optimal healing.
         </p>
       </div>
-      <div class="half-flow">
+      <div class="half-flow box">
         <h3>An Answer.</h3>
         <p>
           We offer our partners an answer to current excess costs and invasive methods. We
@@ -96,7 +96,7 @@
     margin-block-end: 0;
   }
 
-  .boxes div {
+  .box {
     padding: var(--double-size);
     background-color: var(--light);
   }

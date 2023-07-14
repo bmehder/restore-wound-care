@@ -15,12 +15,14 @@
 
 <section class="flow">
   <h2>Frustrated by a chronic wound?</h2>
+
   <img
     class="float-right"
     style="--max: 31em"
     src="/patients.jpg"
     alt="Elderly couple at home with health care provider"
   />
+
   <p>
     Wounds can be created many ways; surgery, injury, Diabetes, pressure, even blood clots
     can lead to surface wounds. Other factors can complicate treatment from medication to
@@ -50,9 +52,7 @@
 
 <CTA>
   <p class="h1 underline">Contact Us</p>
-  <p>
-    Discuss your situation, and set up an evaluation.
-  </p>
+  <p>Discuss your situation, and set up an evaluation.</p>
   <a class="button" href="/contact"><Phone /> Contact us</a>
 </CTA>
 

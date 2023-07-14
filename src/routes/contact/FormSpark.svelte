@@ -56,14 +56,12 @@
   </div>
   <div class="request-evaluation">
     <input
-    type="checkbox"
-    name="request-evaluation"
-    id="request-evaluation"
-    value="evaluation"
+      type="checkbox"
+      name="request-evaluation"
+      id="request-evaluation"
+      value="evaluation"
     />
-    <label for="request-evaluation">
-      I would like to request an evaluation.
-    </label>
+    <label for="request-evaluation"> I would like to request an evaluation. </label>
   </div>
   <div>
     <label for="message">Message <span>*</span></label>

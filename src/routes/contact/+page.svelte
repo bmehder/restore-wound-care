@@ -5,7 +5,7 @@
   const FORMSPARK_URL = 'https://submit-form.com/sAOnImzN'
   const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
   const devURL = 'http://localhost:5173/contact/thank-you'
-  const prodURL = 'https://restore-wound-care.vercel.app/contact/thank-you'
+  const prodURL = 'https://restorewoundcare.com/contact/thank-you'
 </script>
 
 <svelte:head>
@@ -27,7 +27,7 @@
       redirect={dev ? devURL : prodURL}
     />
   </div>
-  <div class="flow sidebar">
+  <div class="flow">
     <h2>Location</h2>
     <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
