@@ -6,23 +6,12 @@
   import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
+  import Analytics from '../lib/Analytics.svelte'
 
   const mobileThreshold = 1240
 </script>
 
-<svelte:head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RGZGJ70WDZ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || []
-    function gtag() {
-      dataLayer.push(arguments)
-    }
-    gtag('js', new Date())
-
-    gtag('config', 'G-RGZGJ70WDZ')
-  </script>
-</svelte:head>
+<Analytics id="G-RGZGJ70WDZ" />
 
 <div class="wrapper">
   <Header {mobileThreshold} />
