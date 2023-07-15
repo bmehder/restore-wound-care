@@ -1,11 +1,9 @@
 <script>
   import { page } from '$app/stores'
 
-  export let id = ''
-
   $: {
     if (typeof gtag !== 'undefined') {
-      gtag('config', {id}, {
+      gtag('config', 'G-RGZGJ70WDZ', {
         page_title: document.title,
         page_path: $page.url.pathname,
       })
@@ -16,7 +14,7 @@
 <svelte:head>
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id={id}">
+    src="https://www.googletagmanager.com/gtag/js?id=G-RGZGJ70WDZ">
   </script>
   <script>
     window.dataLayer = window.dataLayer || []
@@ -26,6 +24,6 @@
     }
 
     gtag('js', new Date())
-    gtag('config', {id})
+    gtag('config', 'G-RGZGJ70WDZ')
   </script>
 </svelte:head>

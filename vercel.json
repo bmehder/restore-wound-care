@@ -1,3 +1,5 @@
 {
-  "redirects": [{ "source": "/providers", "destination": "/referring-providers", "permanent": true }]
+  "redirects": [
+    { "source": "/providers", "destination": "/referring-providers", "permanent": true }
+  ]
 }

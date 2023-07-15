@@ -11,7 +11,7 @@
   const mobileThreshold = 1240
 </script>
 
-<Analytics id="G-RGZGJ70WDZ" />
+<Analytics />
 
 <div class="wrapper">
   <Header {mobileThreshold} />
