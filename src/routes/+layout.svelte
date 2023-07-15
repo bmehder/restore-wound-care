@@ -2,11 +2,11 @@
   import { page } from '$app/stores'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
+  import Analytics from '../lib/Analytics.svelte'
   import Header from '$lib/Headers/Header.svelte'
   import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
-  import Analytics from '../lib/Analytics.svelte'
 
   const mobileThreshold = 1240
 </script>
