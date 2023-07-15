@@ -10,9 +10,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: calc(var(--size) / 4);
-    font-weight: bold;
-    color: var(--accent);
     text-align: center;
+    color: var(--accent);
+    font-weight: bold;
   }
   div {
     display: grid;
