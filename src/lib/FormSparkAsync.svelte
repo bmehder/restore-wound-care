@@ -68,9 +68,9 @@
   }
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
   <script src="https://unpkg.com/@botpoison/browser" async></script>
-</svelte:head>
+</svelte:head> -->
 
 <section class="flow">
   {#if isSubmitted}
