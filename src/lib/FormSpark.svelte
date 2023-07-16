@@ -76,6 +76,10 @@
       autocomplete="off"
     />
     <input type="hidden" name="_redirect" value={redirect} />
+    <input type="hidden" name="_email.from" value="Restore Wound Care" />
+    <input type="hidden" name="_email.subject" value="New Contact Form Submission" />
+    <input type="hidden" name="_email.template.title" value="New Contact Form Submission" />
+    <input type="hidden" name="_email.template.footer" value="false" />
   </div>
   <div>
     <button type="submit" disabled={isBotpoisoning}>Submit Message</button>
@@ -98,7 +102,6 @@
 
   .request-evaluation {
     display: flex;
-    align-items: center;
     gap: var(--half-size);
   }
 

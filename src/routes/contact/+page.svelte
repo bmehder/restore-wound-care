@@ -1,11 +1,8 @@
 <script>
-  import { dev } from '$app/environment'
-  import FormSpark from './FormSpark.svelte'
+  import FormSparkAsync from '$lib/FormSparkAsync.svelte'
 
-  const FORMSPARK_URL = 'https://submit-form.com/sAOnImzN'
+  const FORMSPARK_ID = 'sAOnImzN'
   const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
-  const devURL = 'http://localhost:5173/contact/thank-you'
-  const prodURL = 'https://restorewoundcare.com/contact/thank-you'
 </script>
 
 <svelte:head>
@@ -21,11 +18,7 @@
 <section class="flex">
   <div class="flow form">
     <h2>Send Us A Message</h2>
-    <FormSpark
-      formSparkURL={FORMSPARK_URL}
-      botpoison={BOTPOISON_KEY}
-      redirect={dev ? devURL : prodURL}
-    />
+    <FormSparkAsync id={FORMSPARK_ID} botpoisonKey={BOTPOISON_KEY} />
   </div>
   <div class="flow">
     <h2>Location</h2>
