@@ -5,7 +5,7 @@ export default [
   },
   {
     name: 'Team',
-    url: '/team',
+    url: '/team/',
     // children: [
     //   { name: 'FAQs', url: '/team/frequently-asked-questions' },
     //   { name: 'Educational Thing', url: '/team/education' },
@@ -13,22 +13,22 @@ export default [
   },
   {
     name: 'For Patients',
-    url: '/patients',
+    url: '/patients/',
   },
   {
     name: 'Referring Providers',
-    url: '/referring-providers',
+    url: '/referring-providers/',
   },
   {
     name: 'Testimonials',
-    url: '/testimonials',
+    url: '/testimonials/',
   },
   {
     name: 'Case Studies',
-    url: '/case-studies',
+    url: '/case-studies/',
   },
   {
     name: 'Contact',
-    url: '/contact',
+    url: '/contact/',
   },
 ]
