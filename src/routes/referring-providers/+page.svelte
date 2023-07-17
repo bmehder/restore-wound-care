@@ -84,7 +84,7 @@
       <p>
         No need to drive, we will come to you! Our flexible mobile service is available if
         transportation and mobility is a problem. We bill your insurance for the visit, so
-        there is no cash fee involved. Additionally, we have <a href="/contact"
+        there is no cash fee involved. Additionally, we have <a href="/contact/"
           >multiple clinic locations</a
         > available for evaluations and treatments if you'd prefer.
       </p>

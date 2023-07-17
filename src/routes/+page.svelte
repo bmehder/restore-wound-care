@@ -84,7 +84,7 @@
         your solution.
       </p>
       <p>Call to schedule an on–site patient evaluation appointment.</p>
-      <a href="/contact" class="button"><Phone /> Contact Us</a>
+      <a href="/contact/" class="button"><Phone /> Contact Us</a>
     </div>
   </div>
 </section>

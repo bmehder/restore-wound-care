@@ -8,7 +8,7 @@
       <div class="h2">A Revolution in Chronic Wound Care</div>
       <div class="h3">Proudly serving the Front Range of Colorado</div>
       <div>
-        <a class="button" aria-label="Request Appointment" href="/contact"
+        <a class="button" aria-label="Request Appointment" href="/contact/"
           >Request Appointment</a
         >
       </div>

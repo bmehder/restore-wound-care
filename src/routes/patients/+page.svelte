@@ -114,5 +114,5 @@
 <CTA>
   <p class="h1 underline">Contact Us</p>
   <p>Discuss your situation, and set up an evaluation.</p>
-  <a class="button" href="/contact"><Phone /> Contact us</a>
+  <a class="button" href="/contact/"><Phone /> Contact us</a>
 </CTA>
