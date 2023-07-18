@@ -17,11 +17,11 @@
 
 <section class="flex">
   <div class="flow form">
-    <h2>Send Us A Message</h2>
+    <!-- <h2>Send Us A Message</h2> -->
     <FormSparkAsync id={FORMSPARK_ID} botpoisonKey={BOTPOISON_KEY} />
   </div>
   <div class="flow">
-    <h2>Location</h2>
+    <!-- <h2>Location</h2> -->
     <img src="/contact.jpg" alt="Nurse holding patient's hand." />
     <p>
       Treatments are available at your home, in-facility, or in one of our convenient

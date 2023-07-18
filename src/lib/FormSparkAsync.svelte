@@ -74,10 +74,8 @@
 
 <section class="flow">
   {#if isSubmitted}
-    <p class="h3">
-      Submission Successful. We've received your message and will contact you as soon as
-      possible.
-    </p>
+    <p class="h2">Thank you for your message!</p>
+    <p class="h3">We have received your message and will contact you as soon as possible. Please call <a href="tel:7206789868">720-678-9868</a> for urgent inquiries.</p>
   {:else}
     <form
       bind:this={formElement}
@@ -160,6 +158,10 @@
 </section>
 
 <style>
+  .h2, .h3 {
+    line-height: 1.5;
+  }
+
   form {
     width: min(100%, 42em);
   }

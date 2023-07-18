@@ -1,6 +1,6 @@
 <script>
+  import Sveltetube from '$lib/Sveltetube.svelte'
   import videos from './data'
-  import Vimeo from './Vimeo.svelte'
 </script>
 
 <svelte:head>
@@ -11,8 +11,12 @@
 
 <section>
   <ul class="auto-grid">
-    {#each videos as item}
-      <Vimeo {item} />
+    {#each videos as { heading, id, content }}
+      <div class="flow">
+        <h2>{heading}</h2>
+        <Sveltetube {id} />
+        <p>{content}</p>
+      </div>
     {/each}
   </ul>
 </section>

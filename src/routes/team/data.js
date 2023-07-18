@@ -44,6 +44,11 @@ export default [
     name: 'Heather Campos',
     description: `Heather Campos is a native of Texas and has a background in healthcare. She proudly serves patients on the phone and enjoys ensuring ease and care when they contact our office. Heather joined RWC in 2023, and when she's not helping patients, she can be found reading or at game night with her family and friends.`,
   },
+  {
+    // src: '/team/kate-thompson.jpg',
+    name: 'Denise Cummins',
+    description: `Denise Cummins is a native of Wisconsin and was raised in Nevada. She proudly serves patients on the phone and through the billing process. She is passionate about excellent wound care and enjoys witnessing the results of the treatments we provide. Denise joined RWC in 2022, and when she’s not assisting patients, you can find her traveling and spending time with her son.`,
+  },
   // {
   //   src: '/team/melanie-markadakis.jpg',
   //   name: 'Melanie Markadakis, MSN, APRN, FNP-C',
