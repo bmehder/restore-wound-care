@@ -13,6 +13,10 @@
 
 <Analytics />
 
+<svelte:head>
+  <script defer data-domain="restorewoundcare.com" src="https://plausible.io/js/script.js"></script>
+</svelte:head>
+
 <div class="wrapper">
   <Header {mobileThreshold} />
 
