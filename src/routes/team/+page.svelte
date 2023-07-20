@@ -1,6 +1,8 @@
 <script>
   import teamMembers from './data'
   import Member from './Member.svelte'
+  import CTA from '$lib/CTA.svelte';
+  import Phone from '$lib/icons/Phone.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +20,12 @@
     {/each}
   </ul>
 </section>
+
+<CTA>
+  <p class="h1 underline">Contact Us</p>
+  <p>Discuss your situation, and set up an evaluation.</p>
+  <a class="button" href="/contact/"><Phone /> Contact us</a>
+</CTA>
 
 <style>
   ul {
