@@ -1,6 +1,6 @@
 <script>
-  import Sveltetube from '$lib/Sveltetube.svelte'
   import videos from './data'
+  import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
 
 <svelte:head>
