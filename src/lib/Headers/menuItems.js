@@ -6,10 +6,9 @@ export default [
   {
     name: 'Team',
     url: '/team/',
-    // children: [
-    //   { name: 'FAQs', url: '/team/frequently-asked-questions' },
-    //   { name: 'Educational Thing', url: '/team/education' },
-    // ],
+    children: [
+      { name: 'Careers', url: '/team/careers/' },
+    ],
   },
   {
     name: 'For Patients',

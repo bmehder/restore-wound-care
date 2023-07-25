@@ -35,9 +35,7 @@
 <style>
   header {
     background-color: var(--accent);
-    /* Hack to prevent seeing a flash of Desktop nav */
     max-height: 6em;
-    overflow-y: hidden;
   }
 
   .skip-nav-link {
