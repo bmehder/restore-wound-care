@@ -6,7 +6,7 @@
 
 <li>
   {#if src}
-    <img class="square" {src} alt={name} />
+    <img class="square" class:position-center={name === 'Shaun Baillie, APN'} {src} alt={name} />
   {:else}
     &nbsp;
   {/if}
@@ -46,6 +46,10 @@
       padding: calc(var(--half-size) / 2);
       background-color: white;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.24);
+      object-position: top;
+    }
+    .position-center {
+      object-position: center;
     }
   }
 </style>
