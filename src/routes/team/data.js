@@ -19,16 +19,16 @@ export default [
     name: 'Elizabeth Cirbo, FNP-BC, DNP',
     description: `Elizabeth Cirbo is a native of Wyoming and received her DNP, FNP-BC from the University of Northern Colorado and BSN from the University of Wyoming. She proudly serves patients in northern Denver and surrounding areas. She is passionate about excellent wound care and getting to know patients in the comfort of their own home. Liz joined RWC in March of 2023 and enjoys continuing to learn about quality care.`,
   },
-  {
-    src: '/team/shaun-baillie.jpg',
-    name: 'Shaun Baillie, APN',
-    description: `Shaun Baillie is a native of Pennsylvania and received his BSN and DNP at The
-      University of Pittsburgh. He proudly serves patients in Jefferson county and
-      surrounding areas. He is passionate about excellent wound care and has an interest
-      in the technology, graft technique and homecare model that makes RWC unique. Shaun
-      joined RWC in 2022, and when he’s not helping patients, he can be found at a pick-up
-      soccer game.`,
-  },
+  // {
+  //   src: '/team/shaun-baillie.jpg',
+  //   name: 'Shaun Baillie, APN',
+  //   description: `Shaun Baillie is a native of Pennsylvania and received his BSN and DNP at The
+  //     University of Pittsburgh. He proudly serves patients in Jefferson county and
+  //     surrounding areas. He is passionate about excellent wound care and has an interest
+  //     in the technology, graft technique and homecare model that makes RWC unique. Shaun
+  //     joined RWC in 2022, and when he’s not helping patients, he can be found at a pick-up
+  //     soccer game.`,
+  // },
   {
     src: '/team/sharise-reynolds.jpg',
     name: 'Sharise Reynolds',
