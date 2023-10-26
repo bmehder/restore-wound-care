@@ -49,10 +49,9 @@ export default [
     name: 'Denise Cummins',
     description: `Denise Cummins is a native of Wisconsin and was raised in Nevada. She proudly serves patients on the phone and through the billing process. She is passionate about excellent wound care and enjoys witnessing the results of the treatments we provide. Denise joined RWC in 2022, and when she’s not assisting patients, you can find her traveling and spending time with her son.`,
   },
-  // {
-  //   src: '/team/melanie-markadakis.jpg',
-  //   name: 'Melanie Markadakis, MSN, APRN, FNP-C',
-  //   // name: 'M. Markadakis, MSN, APRN, FNP-C',
-  //   description: ``,
-  // },
+  {
+    src: '/team/patricia-caporale.jpg',
+    name: 'Patricia Caporale, FNP-C',
+    description: `Trish Caporale is a native of New Jersey and received her MSN from United States University in San Diego. She is passionate about excellent wound care and advocating for patients who are unable to care for their wounds. Trish joined RWC in 2023, and when she’s not helping patients, you can find her cooking or hiking with her corgi, Gus.`,
+  },
 ]
