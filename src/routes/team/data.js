@@ -19,16 +19,11 @@ export default [
     name: 'Elizabeth Cirbo, FNP-BC, DNP',
     description: `Elizabeth Cirbo is a native of Wyoming and received her DNP, FNP-BC from the University of Northern Colorado and BSN from the University of Wyoming. She proudly serves patients in northern Denver and surrounding areas. She is passionate about excellent wound care and getting to know patients in the comfort of their own home. Liz joined RWC in March of 2023 and enjoys continuing to learn about quality care.`,
   },
-  // {
-  //   src: '/team/shaun-baillie.jpg',
-  //   name: 'Shaun Baillie, APN',
-  //   description: `Shaun Baillie is a native of Pennsylvania and received his BSN and DNP at The
-  //     University of Pittsburgh. He proudly serves patients in Jefferson county and
-  //     surrounding areas. He is passionate about excellent wound care and has an interest
-  //     in the technology, graft technique and homecare model that makes RWC unique. Shaun
-  //     joined RWC in 2022, and when he’s not helping patients, he can be found at a pick-up
-  //     soccer game.`,
-  // },
+  {
+    src: '/team/patricia-caporale.jpg',
+    name: 'Patricia Caporale, FNP-C',
+    description: `Trish Caporale is a native of New Jersey and received her MSN from United States University in San Diego. She is passionate about excellent wound care and advocating for patients who are unable to care for their wounds. Trish joined RWC in 2023, and when she’s not helping patients, you can find her cooking or hiking with her corgi, Gus.`,
+  },
   {
     src: '/team/sharise-reynolds.jpg',
     name: 'Sharise Reynolds',
@@ -48,10 +43,5 @@ export default [
     src: '/team/denise-cummins.jpg',
     name: 'Denise Cummins',
     description: `Denise Cummins is a native of Wisconsin and was raised in Nevada. She proudly serves patients on the phone and through the billing process. She is passionate about excellent wound care and enjoys witnessing the results of the treatments we provide. Denise joined RWC in 2022, and when she’s not assisting patients, you can find her traveling and spending time with her son.`,
-  },
-  {
-    src: '/team/patricia-caporale.jpg',
-    name: 'Patricia Caporale, FNP-C',
-    description: `Trish Caporale is a native of New Jersey and received her MSN from United States University in San Diego. She is passionate about excellent wound care and advocating for patients who are unable to care for their wounds. Trish joined RWC in 2023, and when she’s not helping patients, you can find her cooking or hiking with her corgi, Gus.`,
   },
 ]
