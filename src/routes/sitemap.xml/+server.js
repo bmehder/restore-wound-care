@@ -50,7 +50,7 @@ const createSitemap = ({site, pages, posts}) => {
 //list of pages as a string ex. ["about", "blog", "contact"]
 
 const options = {
-  site: 'https://restorewoundcare.com',
+  site: 'https://www.restorewoundcare.com',
   pages: menuItems.map(item => item.url.substring(1)).filter(Boolean),
   posts: [],
 }
