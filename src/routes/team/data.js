@@ -24,11 +24,11 @@ export default [
     name: 'Patricia Caporale, FNP-C',
     description: `Trish Caporale is a native of New Jersey and received her MSN from United States University in San Diego. She is passionate about excellent wound care and advocating for patients who are unable to care for their wounds. Trish joined RWC in 2023, and when she’s not helping patients, you can find her cooking or hiking with her corgi, Gus.`,
   },
-  {
-    src: '/team/sally-turnipseed.jpg',
-    name: 'Sally Turnipseed, FNP-C',
-    description: `Sally Turnipseed is a native of Tennessee and received her BSN at Belmont University and MSN at Regis University, Denver. She is passionate about excellent care and witnessing chronic wounds get better at home. Sally joined RWC in 2023 and when she’s not helping patients you can find her gardening, spending time with family, including her bulldog, Frank.`,
-  },
+  // {
+  //   src: '/team/sally-turnipseed.jpg',
+  //   name: 'Sally Turnipseed, FNP-C',
+  //   description: `Sally Turnipseed is a native of Tennessee and received her BSN at Belmont University and MSN at Regis University, Denver. She is passionate about excellent care and witnessing chronic wounds get better at home. Sally joined RWC in 2023 and when she’s not helping patients you can find her gardening, spending time with family, including her bulldog, Frank.`,
+  // },
   {
     src: '/team/sharise-reynolds.jpg',
     name: 'Sharise Reynolds',
