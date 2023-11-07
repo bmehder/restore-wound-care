@@ -17,7 +17,7 @@ export default [
   {
     src: '/team/elizabeth-cirbo.jpg',
     name: 'Elizabeth Cirbo, FNP-BC, DNP',
-    description: `Elizabeth Cirbo is a native of Wyoming and received her DNP, FNP-BC from the University of Northern Colorado and BSN from the University of Wyoming. She proudly serves patients in northern Denver and surrounding areas. She is passionate about excellent wound care and getting to know patients in the comfort of their own home. Liz joined RWC in March of 2023 and enjoys continuing to learn about quality care.`,
+    description: `Elizabeth Cirbo is a native of Wyoming and received her DNP, FNP-BC from the University of Northern Colorado and BSN from the University of Wyoming. She proudly serves patients in northern Denver and surrounding areas. She is passionate about excellent wound care and getting to know patients in the comfort of their own home. Liz joined RWC in March 2023 and is passionate about excellent patient care and getting to know patients in the comfort of their own home. In her down time, she enjoys trying new recipes for her family, reading a good book and hiking.`,
   },
   {
     src: '/team/patricia-caporale.jpg',
